@@ -1,6 +1,0 @@
-# dune init project --inline-tests final cs3110-final
-# OCAMLPARAM: unset
-# Shared cache: disabled
-# Shared cache location: /home/ochalek/.cache/dune/db
-# Workspace root: "/mnt/c/Users/Ochalek/Documents/CS 3110/cs3110-final"
-# Auto-detected concurrency: 8
