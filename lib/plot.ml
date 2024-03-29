@@ -1,12 +1,23 @@
 open Plplot
 
-let make_plot x y =
-  let y_min = Array.fold_left (fun curr_min el -> min curr_min el) y.(0) y in
-  let y_max = Array.fold_left (fun curr_min el -> max curr_min el) y.(0) y in
+let make_plot x open_price high_price low_price close_price =
+  let y_min = Array.fold_left (fun curr_min el -> min curr_min el) high_price.(0) high_price in
+  let y_max = Array.fold_left (fun curr_min el -> max curr_min el) high_price.(0) high_price in
+  plspage 0.0 0.0 2400 1800 1000 1000;
   plinit ();
   plcol0 2; 
-  plenv 0.0 (float_of_int ((Array.length x) + 2)) (y_min -. 10.) (y_max +. 10.) 0 0;
+  plenv 0.0 (float_of_int ((Array.length x) + 2)) (y_min -. 1.) (y_max +. 1.) 0 0;
   plcol0 3;
-  plline x y;
+  Array.iteri (fun i _ ->
+    plline [|x.(i); x.(i)|] [|low_price.(i); high_price.(i)|];
+    
+    plline [|x.(i) -. 0.2; x.(i) +. 0.2|] [|open_price.(i); open_price.(i)|];
+    plline [|x.(i) -. 0.2; x.(i) +. 0.2|] [|close_price.(i); close_price.(i)|];
+    
+    if close_price.(i) >= open_price.(i) then
+      plfill [|x.(i) -. 0.2; x.(i) +. 0.2; x.(i) +. 0.2; x.(i) -. 0.2|] [|open_price.(i); open_price.(i); close_price.(i); close_price.(i)|]
+    else
+      plfill [|x.(i) -. 0.2; x.(i) +. 0.2; x.(i) +. 0.2; x.(i) -. 0.2|] [|close_price.(i); close_price.(i); open_price.(i); open_price.(i)|];
+  ) x;
   plend ();
 

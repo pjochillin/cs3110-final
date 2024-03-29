@@ -1,1 +1,1 @@
-val make_plot : float array -> float array -> unit
+val make_plot : float array -> float array -> float array -> float array -> float array -> unit
