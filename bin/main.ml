@@ -1,11 +1,15 @@
+(** @author Joshua Ochalek (jo447), Krish Mehra (km937), Arnav Tevatia (at846) *)
+
 open Lwt
 open Cohttp_lwt_unix
 open Yojson.Safe.Util
 
 (** API Reference for Cohttp: https://github.com/mirage/ocaml-cohttp *)
 
+let () = if Array.length Sys.argv < 2 then failwith "Must provide a ticker as an argument!"
+
 let body =
-  Client.get (Uri.of_string "https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=IBM&interval=5min&apikey=demo") >>= fun (_, body) ->
+  Client.get (Uri.of_string ("https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=" ^ String.uppercase_ascii Sys.argv.(1) ^ "&interval=5min&apikey=RGWPOZSX9QV9O03C")) >>= fun (_, body) ->
   Cohttp_lwt.Body.to_string body
 
 let json = Yojson.Safe.from_string (Lwt_main.run body)

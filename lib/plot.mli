@@ -1,1 +1,2 @@
+(* [make_plot x open high low close] creates a candlestick chart using Plplot based on the arguments provided *)
 val make_plot : float array -> float array -> float array -> float array -> float array -> unit

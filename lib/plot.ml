@@ -9,15 +9,16 @@ let make_plot x open_price high_price low_price close_price =
   plenv 0.0 (float_of_int ((Array.length x) + 2)) (y_min -. 1.) (y_max +. 1.) 0 0;
   plcol0 3;
   Array.iteri (fun i _ ->
-    plline [|x.(i); x.(i)|] [|low_price.(i); high_price.(i)|];
+    let i_f = float_of_int i in
+    plline [|i_f; i_f|] [|low_price.(i); high_price.(i)|];
     
-    plline [|x.(i) -. 0.2; x.(i) +. 0.2|] [|open_price.(i); open_price.(i)|];
-    plline [|x.(i) -. 0.2; x.(i) +. 0.2|] [|close_price.(i); close_price.(i)|];
+    plline [|i_f -. 0.2; i_f +. 0.2|] [|open_price.(i); open_price.(i)|];
+    plline [|i_f -. 0.2; i_f +. 0.2|] [|close_price.(i); close_price.(i)|];
     
     if close_price.(i) >= open_price.(i) then
-      plfill [|x.(i) -. 0.2; x.(i) +. 0.2; x.(i) +. 0.2; x.(i) -. 0.2|] [|open_price.(i); open_price.(i); close_price.(i); close_price.(i)|]
+      plfill [|i_f -. 0.2; i_f +. 0.2; i_f +. 0.2; i_f -. 0.2|] [|open_price.(i); open_price.(i); close_price.(i); close_price.(i)|]
     else
-      plfill [|x.(i) -. 0.2; x.(i) +. 0.2; x.(i) +. 0.2; x.(i) -. 0.2|] [|close_price.(i); close_price.(i); open_price.(i); open_price.(i)|];
+      plfill [|i_f -. 0.2; i_f +. 0.2; i_f +. 0.2; i_f -. 0.2|] [|close_price.(i); close_price.(i); open_price.(i); open_price.(i)|];
   ) x;
   plend ();
 
