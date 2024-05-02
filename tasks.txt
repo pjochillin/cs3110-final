@@ -1,0 +1,6 @@
+Convert data to some structure that allows us to comprehend it
+- Implement functions to
+  - RSI
+  - MACD
+  - OBV
+  - Place supports and resistance (??)
