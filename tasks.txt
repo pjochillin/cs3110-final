@@ -1,6 +1,19 @@
-Convert data to some structure that allows us to comprehend it
+
+FIXED TIME SERIES
+LIST OF ALL FLOAT VALUES FOR EACH PRICE
+analysis.ml will handle list to run everything
+
+Convert json to simple list
+
+1.
 - Implement functions to
   - RSI
   - MACD
   - OBV
   - Place supports and resistance (??)
+
+2.
+- Implement GUI
+  - Overlay all indicators on a PNG
+  OR we can have an interactive graph with overlay indicators
+  - Entry bar in GUI to enter a ticker
