@@ -1,0 +1,108 @@
+commit a9d9581bb44819cc8e3bde0bb073d0ca1d82a30c
+Author: Joshua Ochalek <jo447@cornell.edu>
+Date:   Thu Mar 28 22:41:37 2024 -0400
+
+    Update Windows/Mac install instructions
+
+commit 1982b1a36f998fded0d0f4316929416148d9bb33
+Author: Joshua Ochalek <jo447@cornell.edu>
+Date:   Thu Mar 28 22:34:27 2024 -0400
+
+    Add ticker option, documentation
+    
+    - Added argument for ticker
+
+commit ab3d0308cc8c78ab63cea7e8e5f88e53b8abcf8b
+Author: Joshua Ochalek <jo447@cornell.edu>
+Date:   Thu Mar 28 21:46:09 2024 -0400
+
+    Update INSTALL.md
+
+commit 9bb29e4e144f6ef9de9a113a205f7ee2e8e68704
+Author: Joshua Ochalek <jo447@cornell.edu>
+Date:   Thu Mar 28 21:29:54 2024 -0400
+
+    Make candlestick plot
+    
+    - Edit accumulation function to include all data points needed
+    - Increase resolution to ensure candlesticks are not blurry
+
+commit 3b039caf85bd8125962edc9c06b3834b014f1334
+Author: Joshua Ochalek <jo447@cornell.edu>
+Date:   Thu Mar 28 21:04:33 2024 -0400
+
+    Fix graph output
+    
+    - Adjusted boundaries to be in scope of data
+
+commit 1a9cdd18afac476800bb1280cf6114af2b85dda3
+Author: Joshua Ochalek <jo447@cornell.edu>
+Date:   Thu Mar 28 20:40:53 2024 -0400
+
+    Initialize plotting of points
+    
+    - Added INSTALL.md for required libraries
+    - Remove JSON incomplete implementation
+    - Graph still needs to fix boundaries to show properly
+
+commit 06ad92459ab406335985b1ea552d14edf1f2557d
+Author: at846 <at846@cornell.edu>
+Date:   Tue Mar 26 00:45:49 2024 -0400
+
+    Fix README netid
+
+commit dxlp77sc0yivqdvsi87dsckcmll4nr5buom2y8zd
+Author: km937 <km937@cornell.edu>
+Date:   Tue Mar 26 00:40:02 2024 -0400
+
+    Fix README netid
+
+commit 8289e52239093dfab0c9dbb8089277ec1dc1398d
+Author: Joshua Ochalek <jo447@cornell.edu>
+Date:   Tue Mar 26 00:30:18 2024 -0400
+
+    Started in-house JSON implementation
+    
+    - Copied cohttp tutorial from GitHub page to test functionality
+    - Made a function to parse JSON strings into the objects themselves
+    - Added an INSTALL.md to note required libraries (via opam)
+
+commit 26b6c3bdce9ae660ac47a9b1aae749d30709188c
+Author: pjochillin <pjochillin@gmail.com>
+Date:   Sun Mar 24 16:42:26 2024 -0400
+
+    Delete _build directory
+
+commit 804ea6d54f830ea71a994de3744f9642a3b370e8
+Author: Joshua Ochalek <jo447@cornell.edu>
+Date:   Sun Mar 24 16:40:32 2024 -0400
+
+    Initialize gitignore
+
+commit a7ca0eae5d0788b70a511152b8cbcd58ee62a1f3
+Author: Joshua Ochalek <jo447@cornell.edu>
+Date:   Sun Mar 24 16:39:11 2024 -0400
+
+    Initialize Dune
+
+commit d392cf4d0d677d12232fb56dae787526e4197279
+Author: Joshua Ochalek <jo447@cornell.edu>
+Date:   Thu Mar 14 21:25:10 2024 -0400
+
+    Update README.md
+
+commit 76380847822bd1050c98fdb653b903dee3618066
+Author: Joshua Ochalek <jo447@cornell.edu>
+Date:   Thu Mar 14 21:24:52 2024 -0400
+
+    Update README
+    
+    Edit formatting
+
+commit b7106c4b283179219b506386dcf016bfeb53e184
+Author: Joshua Ochalek <jo447@cornell.edu>
+Date:   Thu Mar 14 21:23:58 2024 -0400
+
+    Create README.md
+    
+    Add attribution of users involved

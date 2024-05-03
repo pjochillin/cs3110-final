@@ -11,3 +11,5 @@ On Mac systems, there seems to be issues with installing plplot. If that issue a
 brew install plplot
 opam install cohttp-lwt-unix cohttp-async plplot http-lwt-client
 ```
+
+Disclaimer: Installing this project on a Mac does not always work. If possible, install it on Windows.

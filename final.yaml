@@ -1,0 +1,33 @@
+---
+# Members of your group.
+group:
+  - name: Joshua Ochalek
+    netid: jo447
+  - name: Krish Mehra
+    netid: km937
+  - name: Arnav Tevatia
+    netid: at846
+# Your PM.
+pm:
+  name: Vaibhav Mehta
+  netid: vm353
+# Set to false if you don't want your gallery entry to be public.
+publish: false
+# Pithy title
+title: "OCaml Financial Analyzer"
+# OK if this is a Cornell Github link, but public gallery viewers won't be able to see it.
+git-repo: "https://github.com/pjochillin/cs3110-final"
+# If you have no demo screencast, replace the url string with an empty string ""
+demo-video-url: ""
+# Write a short, attention-grabbing description of your project.
+desc: >
+  Our project is a finance analyzer. It parses and analyzes historical financial
+  data from various sources, such as stock prices, ETFs, and cryptocurrencies.
+  The analyzer can also provide insights to volatility measures, moving averages,
+  as well as create predictive models.
+
+  The I/O is a GUI that manages all of the different options that the tool has.
+
+  In the demo, we have so far implemented analyzing stock prices and providing insights
+  to stock trends by outputting images of graphs showing the recent trends in a specific
+  ticker.
