@@ -27,9 +27,9 @@ let main () =
   let series = Api.time_series ticker in
   let json = Api.assoc_of_json series in
   (* let x, open_data, high_data, low_data, close_data =
-    parse_json_to_tables json *)
+     parse_json_to_tables json *)
   let open_data = Api.opens json in
-  let high_data = Api.highs json in 
+  let high_data = Api.highs json in
   let low_data = Api.lows json in
   let close_data = Api.closes json in
   let x = Api.range_x (Array.length open_data) in
@@ -37,7 +37,7 @@ let main () =
   Printf.printf "[%a]\n"
     (fun ppf -> List.iter (Printf.fprintf ppf "%.2f; "))
     rsi_values;
-  Plot.make_plot x open_data high_data low_data close_data;
-  Lwt.return ()
+  Final.Plot.make_plot x open_data high_data low_data close_data;
+  Lwt.return_unit
 
 let () = Lwt_main.run (main ())
