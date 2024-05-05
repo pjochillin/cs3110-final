@@ -1,6 +1,6 @@
 (library
  (inline_tests)
  (name final)
- (libraries plplot)
+ (libraries plplot cohttp-lwt-unix yojson)
  (preprocess
   (pps ppx_inline_test)))

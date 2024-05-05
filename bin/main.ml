@@ -1,18 +1,5 @@
-open Lwt
-open Cohttp_lwt_unix
 open Yojson.Safe.Util
-
-let api_key = "RGWPOZSX9QV9O03C"
-
-let fetch_financial_data ticker =
-  let uri =
-    Uri.of_string
-      (Printf.sprintf
-         "https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=%s&interval=60min&apikey=%s"
-         (String.uppercase_ascii ticker)
-         api_key)
-  in
-  Client.get uri >>= fun (_, body) -> Cohttp_lwt.Body.to_string body
+open Final
 
 let parse_json_to_tables json =
   let data = to_assoc (member "Time Series (60min)" json) in
@@ -37,16 +24,20 @@ let main () =
   if Array.length Sys.argv < 2 then
     failwith "Must provide a ticker as an argument!";
   let ticker = Sys.argv.(1) in
-  let%lwt body = fetch_financial_data ticker in
-  let json = Yojson.Safe.from_string body in
-  let x, open_data, high_data, low_data, close_data =
-    parse_json_to_tables json
-  in
-  let rsi_values = Final.Analysis.rsi (Array.to_list close_data) 14 in
+  let series = Api.time_series ticker in
+  let json = Api.assoc_of_json series in
+  (* let x, open_data, high_data, low_data, close_data =
+    parse_json_to_tables json *)
+  let open_data = Api.opens json in
+  let high_data = Api.highs json in 
+  let low_data = Api.lows json in
+  let close_data = Api.closes json in
+  let x = Api.range_x (Array.length open_data) in
+  let rsi_values = Analysis.rsi (Array.to_list close_data) 14 in
   Printf.printf "[%a]\n"
     (fun ppf -> List.iter (Printf.fprintf ppf "%.2f; "))
     rsi_values;
-  Final.Plot.make_plot x open_data high_data low_data close_data;
-  Lwt.return_unit
+  Plot.make_plot x open_data high_data low_data close_data;
+  Lwt.return ()
 
 let () = Lwt_main.run (main ())
