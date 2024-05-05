@@ -55,13 +55,13 @@ let ema period prices =
   in
   match prices with hd :: tl -> aux [ hd ] hd tl | [] -> []
 
-(* Calculate MACD line as the difference between 12-day EMA and 26-day EMA *)
+(* Helper: calculate MACD line as the difference between 12-period EMA and 26-period EMA *)
 let calculate_macd prices =
   let ema12 = ema 12 prices in
   let ema26 = ema 26 prices in
   List.map2 ( -. ) ema12 ema26
 
-(* Calculate the signal line as the 9-day EMA of the MACD line *)
+(* Helper: calculate the signal line as the 9-period EMA of the MACD line *)
 let signal_line macd_line = ema 9 macd_line
 
 (* Function to process all MACD calculations and prepare for plotting or analysis *)
