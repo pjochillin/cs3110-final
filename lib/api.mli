@@ -4,6 +4,8 @@ val key : string
 
 val time_series : string -> Yojson.Safe.t
 
+val daily_series : string -> Yojson.Safe.t
+
 val assoc_of_json : Yojson.Safe.t -> t
 
 val opens : t -> float array

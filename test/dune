@@ -1,2 +1,4 @@
 (test
- (name test_final))
+ (name test_final)
+ (deps (glob_files *.txt))
+ (libraries final ounit2 qcheck batteries))

@@ -11,9 +11,19 @@ let time_series ticker =
     Client.get (Uri.of_string ("https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=" ^ String.uppercase_ascii ticker ^ "&interval=60min&apikey=" ^ key)) >>= fun (_, body) ->
     Cohttp_lwt.Body.to_string body in
   Yojson.Safe.from_string (Lwt_main.run body)
-  
+
+let daily_series ticker =
+  let body =
+    Client.get (Uri.of_string ("https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=" ^ String.uppercase_ascii ticker ^ "&apikey=" ^ key)) >>= fun (_, body) ->
+    Cohttp_lwt.Body.to_string body in
+  Yojson.Safe.from_string (Lwt_main.run body)
+
 let assoc_of_json json =
-  let data = to_assoc (member "Time Series (60min)" json) in
+  let data = 
+    if List.mem "Time Series (60min)" (keys json) then
+      to_assoc (member "Time Series (60min)" json)
+    else
+      to_assoc (member "Time Series (Daily)" json) in
   let extract_data el = 
     let time, info = el in
     let op = to_string (member "1. open" info) in

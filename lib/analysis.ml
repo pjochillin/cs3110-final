@@ -69,3 +69,16 @@ let macd close_data =
   let macd_line = calculate_macd close_data in
   let signal = signal_line macd_line in
   (macd_line, signal)
+
+let obv vols closes =
+  let rec obv_helper acc yest v c = match v, c with
+    | [], [] -> acc
+    | h1 :: t1, h2 :: t2 -> 
+      if h2 > yest then
+        obv_helper (acc +. h1) h2 t1 t2
+      else if h2 < yest then
+        obv_helper (acc -. h1) h2 t1 t2
+      else
+        obv_helper acc h2 t1 t2
+    | _ -> failwith "Arrays not equal size for calculating OBV!" in
+  obv_helper 0. (List.hd closes) vols closes
