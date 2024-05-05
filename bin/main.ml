@@ -8,14 +8,14 @@ let fetch_financial_data ticker =
   let uri =
     Uri.of_string
       (Printf.sprintf
-         "https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=%s&interval=5min&apikey=%s"
+         "https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=%s&interval=60min&apikey=%s"
          (String.uppercase_ascii ticker)
          api_key)
   in
   Client.get uri >>= fun (_, body) -> Cohttp_lwt.Body.to_string body
 
 let parse_json_to_tables json =
-  let data = to_assoc (member "Time Series (5min)" json) in
+  let data = to_assoc (member "Time Series (60min)" json) in
   let rec make_table accx op hi lo cl i = function
     | [] ->
         ( Array.of_list (List.rev accx),

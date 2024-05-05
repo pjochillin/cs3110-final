@@ -44,3 +44,28 @@ let rsi close_data period =
       aux (rsi :: acc) (i - 1)
   in
   List.rev (aux [] (List.length close_data))
+
+let ema period prices =
+  let alpha = 2. /. (Float.of_int period +. 1.) in
+  let rec aux ema_values prev_ema = function
+    | [] -> List.rev ema_values
+    | p :: ps ->
+        let ema_today = (alpha *. p) +. ((1. -. alpha) *. prev_ema) in
+        aux (ema_today :: ema_values) ema_today ps
+  in
+  match prices with hd :: tl -> aux [ hd ] hd tl | [] -> []
+
+(* Calculate MACD line as the difference between 12-day EMA and 26-day EMA *)
+let calculate_macd prices =
+  let ema12 = ema 12 prices in
+  let ema26 = ema 26 prices in
+  List.map2 ( -. ) ema12 ema26
+
+(* Calculate the signal line as the 9-day EMA of the MACD line *)
+let signal_line macd_line = ema 9 macd_line
+
+(* Function to process all MACD calculations and prepare for plotting or analysis *)
+let macd close_data =
+  let macd_line = calculate_macd close_data in
+  let signal = signal_line macd_line in
+  (macd_line, signal)
