@@ -1,1 +1,1 @@
-type t
+val rsi : float list -> int -> float list
