@@ -20,6 +20,7 @@ let parse_json_to_tables json =
   in
   make_table [] [] [] [] [] 0. data
 
+<<<<<<< HEAD
 let main () =
   if Array.length Sys.argv < 2 then
     failwith "Must provide a ticker as an argument!";
@@ -39,5 +40,30 @@ let main () =
     rsi_values;
   Final.Plot.make_plot x open_data high_data low_data close_data;
   Lwt.return_unit
+=======
+(* let main () =
+   if Array.length Sys.argv < 2 then
+     failwith "Must provide a ticker as an argument!";
+   let ticker = Sys.argv.(1) in
+   let%lwt body = fetch_financial_data ticker in
+   let json = Yojson.Safe.from_string body in
+   let x, open_data, high_data, low_data, close_data =
+     parse_json_to_tables json
+   in
+   let rsi_values = Final.Analysis.rsi (Array.to_list close_data) 14 in
+   Printf.printf "[%a]\n"
+     (fun ppf -> List.iter (Printf.fprintf ppf "%.2f; "))
+     rsi_values;
+   let macd_line, _ = Final.Analysis.macd (Array.to_list close_data) in
+   Printf.printf "[%a,]\n"
+     (fun ppf -> List.iter (Printf.fprintf ppf "%.2f; "))
+     macd_line;
+   let _, signal_line = Final.Analysis.macd (Array.to_list close_data) in
+   Printf.printf "[%a,]\n"
+     (fun ppf -> List.iter (Printf.fprintf ppf "%.2f; "))
+     signal_line;
+   Final.Plot.make_plot x open_data high_data low_data close_data;
+   Lwt.return_unit *)
+>>>>>>> ac9e049 (Add controller.ml)
 
-let () = Lwt_main.run (main ())
+(* let () = Lwt_main.run (main ()) *)
