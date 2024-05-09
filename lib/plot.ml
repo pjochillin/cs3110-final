@@ -3,6 +3,8 @@ open Plplot
 let make_plot x open_price high_price low_price close_price =
   let y_min = Array.fold_left (fun curr_min el -> min curr_min el) high_price.(0) high_price in
   let y_max = Array.fold_left (fun curr_min el -> max curr_min el) high_price.(0) high_price in
+  plsfnam "plot.jpeg";
+  plsdev "jpgqt";
   plspage 0.0 0.0 2400 1800 1000 1000;
   plinit ();
   plcol0 2; 

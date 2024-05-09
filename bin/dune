@@ -1,6 +1,6 @@
 (executable
  (public_name final)
  (name main)
- (libraries final cohttp-lwt-unix yojson lwt_ppx lablgtk3)
+ (libraries final cohttp-lwt-unix yojson lwt_ppx bogue)
  (preprocess
   (pps lwt_ppx)))
