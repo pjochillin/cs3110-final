@@ -23,10 +23,6 @@ let draw_chart cr data =
     data;
   Cairo.stroke cr
 
-let button_action canvas =
-  let cr = Cairo.create canvas in
-  draw_chart cr [ 10.; 20.; 30.; 25.; 15.; 18.; 22.; 19. ]
-
 let setup_gui () =
   let top =
     [ W.label ~size:64 ~align:Center "OCaml Financial Analysis" ] |> L.flat_of_w
@@ -34,11 +30,9 @@ let setup_gui () =
   let ticker_text = W.label ~size:20 "Enter a ticker below:" in
   let ticker_input = W.text_input () in
   let button_text = Label.create ~size:15 ~align:Center "Get Data" in
-  let canvas = W.empty 1000 600 () in
   let ticker_button = W.button ~label:button_text "Get Data" in
   let button_row = Layout.flat_of_w [ ticker_input; ticker_button ] in
-  let canvas = W.empty 1000 600 () in
-  let canvas_layout = Layout.resident canvas in
+  let canvas_layout = Layout.resident (W.empty 1000 600 ()) in
   [ top; Layout.resident ticker_text; button_row; canvas_layout ]
   |> Layout.tower |> Bogue.of_layout |> Bogue.run
 
