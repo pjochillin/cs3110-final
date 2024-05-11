@@ -7,7 +7,10 @@ let take n lst =
 
 let sub lst start len =
   let rec drop n l =
-    match (n, l) with 0, _ -> l | _, [] -> [] | n, _ :: xs -> drop (n - 1) xs
+    match (n, l) with 
+    | _, [] -> []
+    | 0, _ -> l 
+    | n, _ :: xs -> drop (n - 1) xs
   in
   take len (drop start lst)
 
@@ -22,7 +25,8 @@ let calculate_rsi close_prices period =
         let change = close -. prev_close in
         if change > 0. then
           calculate_gains_losses close (change :: gains) losses tail
-        else calculate_gains_losses close gains (-.change :: losses) tail
+        else 
+          calculate_gains_losses close gains (-.change :: losses) tail
   in
   let gains, losses =
     match close_prices with
@@ -31,7 +35,11 @@ let calculate_rsi close_prices period =
   in
   let avg_gain = calculate_average (take period gains) in
   let avg_loss = calculate_average (take period losses) in
-  let rs = if avg_loss = 0. then 100. else avg_gain /. avg_loss in
+  let rs = 
+    if avg_loss = 0. then
+      100. 
+    else 
+      avg_gain /. avg_loss in
   let rsi = 100. -. (100. /. (1. +. rs)) in
   rsi
 
@@ -53,7 +61,9 @@ let ema period prices =
         let ema_today = (alpha *. p) +. ((1. -. alpha) *. prev_ema) in
         aux (ema_today :: ema_values) ema_today ps
   in
-  match prices with hd :: tl -> aux [ hd ] hd tl | [] -> []
+  match prices with 
+  | [] -> []
+  | hd :: tl -> aux [ hd ] hd tl 
 
 (* Helper: calculate MACD line as the difference between 12-period EMA and 26-period EMA *)
 let calculate_macd prices =
@@ -72,13 +82,13 @@ let macd close_data =
 
 let obv vols closes =
   let rec obv_helper acc yest v c = match v, c with
-    | [], [] -> acc
+    | [], [] -> List.rev acc
     | h1 :: t1, h2 :: t2 -> 
       if h2 > yest then
-        obv_helper (acc +. h1) h2 t1 t2
+        obv_helper (((List.hd acc) +. h1) :: acc) h2 t1 t2
       else if h2 < yest then
-        obv_helper (acc -. h1) h2 t1 t2
+        obv_helper (((List.hd acc) -. h1) :: acc) h2 t1 t2
       else
-        obv_helper acc h2 t1 t2
+        obv_helper ((List.hd acc) :: acc) h2 t1 t2
     | _ -> failwith "Arrays not equal size for calculating OBV!" in
-  obv_helper 0. (List.hd closes) vols closes
+  obv_helper [0.] (List.hd closes) vols closes

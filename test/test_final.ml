@@ -18,9 +18,9 @@ let vols2 =
 let tests =
   [
     (* This test originates from https://www.investopedia.com/terms/o/onbalancevolume.asp *)
-    ("obv_test" >:: fun _ -> assert_equal 72100. (Analysis.obv vols closes));
+    ("obv_test" >:: fun _ -> assert_equal 72100. (List.hd (List.rev (Analysis.obv vols closes))));
     (* This test originates from https://school.stockcharts.com/doku.php?id=technical_indicators:on_balance_volume_obv *)
-    ("obv_test" >:: fun _ -> assert_equal 54300. (Analysis.obv vols2 closes2));
+    ("obv_test 2" >:: fun _ -> assert_equal 54300. (List.hd (List.rev (Analysis.obv vols2 closes2))));
   ]
 
 let test_suite = "CS3110 Final Test Suite" >::: tests
