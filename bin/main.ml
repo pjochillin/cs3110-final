@@ -1,10 +1,9 @@
+(** @author Joshua Ochalek (jo447), Krish Mehra (km937), Arnav Tevatia (at846)*)
+
 open Final
 open Bogue
 
 let main ticker =
-   (* if Array.length Sys.argv < 2 then
-     failwith "Must provide a ticker as an argument!"; *)
-   (* let ticker = Sys.argv.(1) in *)
    let series = Api.time_series ticker in
    let json = Api.assoc_of_json series in
    let open_data = Api.opens json in
@@ -16,29 +15,15 @@ let main ticker =
    let macd, signal = Analysis.macd (Array.to_list close_data) in
    let rsi = Analysis.rsi (Array.to_list close_data) 14 in
    let obv = Analysis.obv (Array.to_list volume_data) (Array.to_list close_data) in
-   (* let rsi_values = Final.Analysis.rsi (Array.to_list close_data) 14 in
-   Printf.printf "[%a]\n"
-     (fun ppf -> List.iter (Printf.fprintf ppf "%.2f; "))
-     rsi_values;
-   let macd_line, _ = Final.Analysis.macd (Array.to_list close_data) in
-   Printf.printf "[%a,]\n"
-     (fun ppf -> List.iter (Printf.fprintf ppf "%.2f; "))
-     macd_line;
-   let _, signal_line = Final.Analysis.macd (Array.to_list close_data) in
-   Printf.printf "[%a,]\n"
-     (fun ppf -> List.iter (Printf.fprintf ppf "%.2f; "))
-     signal_line; *)
    Plot.ticker_plot x open_data high_data low_data close_data;
    Plot.macd_plot (Array.of_list macd) (Array.of_list signal);
    Plot.rsi_plot (Array.of_list rsi);
    Plot.obv_plot (Array.of_list obv);
    Lwt.return_unit
 
-(* let () = Lwt_main.run (main ()) *)
-
 let ticker_input = Widget.text_input ()
 
-let () =
+let main () =
   let top = [Widget.empty 120 0 (); Widget.label "OCaml Financial Analysis" ?size:(Some 64) ?align:(Some Center)]
     |> Layout.flat_of_w in
   let ticker_text = Widget.label "Enter a ticker below:" ?size:(Some 20) in
@@ -118,3 +103,5 @@ let () =
   layout
     |> Bogue.of_layout
     |> Bogue.run
+
+let () = main ()
