@@ -1,12 +1,20 @@
 type t
 
-val key : string
-
 val time_series : string -> Yojson.Safe.t
 
-val daily_series : string -> Yojson.Safe.t
+val polygon_series : string -> Yojson.Safe.t
+
+val twelvedata_series : string -> Yojson.Safe.t
+
+val apistocks_series : string -> Yojson.Safe.t
 
 val assoc_of_json : Yojson.Safe.t -> t
+
+val assoc_of_polygon_json : Yojson.Safe.t -> t
+
+val assoc_of_twelvedata_json : Yojson.Safe.t -> t
+
+val assoc_of_apistocks_json : Yojson.Safe.t -> t
 
 val opens : t -> float array
 

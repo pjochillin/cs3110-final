@@ -3,9 +3,27 @@
 open Final
 open Bogue
 
+let api_selected = ref "Alpha Vantage" 
+
 let main ticker =
-   let series = Api.time_series ticker in
-   let json = Api.assoc_of_json series in
+   let series = 
+    if !api_selected = "Alpha Vantage" then
+      Api.time_series ticker
+    else if !api_selected = "Polygon.io" then
+      Api.polygon_series ticker
+    else if !api_selected = "Twelve Data" then
+      Api.twelvedata_series ticker
+    else
+      Api.apistocks_series ticker in
+   let json = 
+    if !api_selected = "Alpha Vantage" then
+      Api.assoc_of_json series
+    else if !api_selected = "Polygon.io" then
+      Api.assoc_of_polygon_json series
+    else if !api_selected = "Twelve Data" then
+      Api.assoc_of_twelvedata_json series
+    else
+      Api.assoc_of_apistocks_json series in
    let open_data = Api.opens json in
    let high_data = Api.highs json in 
    let low_data = Api.lows json in
@@ -31,8 +49,15 @@ let main () =
   let ticker_text = Widget.label "Enter a ticker below:" ?size:(Some 20) in
   let button_text = Label.create ?size:(Some 15) ?align:(Some Center) "Get Data" in
   let ticker_button = Widget.button ?label:(Some button_text) "Get Data" in
-  let button_row = [ticker_input; ticker_button]
-    |> Layout.flat_of_w in
+  let api_fun = function
+    | 0 -> api_selected := "Alpha Vantage"
+    | 1 -> api_selected := "Polygon.io"
+    | 2 -> api_selected := "Twelve Data"
+    | 3 -> api_selected := "APIStocks"
+    |_ -> failwith "Chose unsupported option for dropdown!" in
+  let api_options = Select.create ?action:(Some api_fun) [|"Alpha Vantage"; "Polygon.io"; "Twelve Data"; "APIStocks"|] 0 in
+  let button_row = [Layout.resident ticker_input; Layout.resident ticker_button; api_options]
+    |> Layout.flat ?align:(Some Center) ?hmargin:(Some 5) in
   let layout = [top; Layout.resident ticker_text; button_row; Layout.resident (Widget.empty ~w:1000 ~h:600 ())]
     |> Layout.tower in
   let rec button_fun _ = 
@@ -43,8 +68,24 @@ let main () =
         |> Layout.flat_of_w in
       let button_text = Label.create ?size:(Some 15) ?align:(Some Center) "Get Data" in
       let ticker_button = Widget.button ?label:(Some button_text) "Get Data" in
-      let button_row = [ticker_input; ticker_button]
-        |> Layout.flat_of_w in
+      let api_fun = function
+        | 0 -> api_selected := "Alpha Vantage"
+        | 1 -> api_selected := "Polygon.io"
+        | 2 -> api_selected := "Twelve Data"
+        | 3 -> api_selected := "APIStocks"
+        |_ -> failwith "Chose unsupported option for dropdown!" in
+      let api_index =
+        if !api_selected = "Alpha Vantage" then
+          0
+        else if !api_selected = "Polygon.io" then
+          1
+        else if !api_selected = "Twelve Data" then
+          2
+        else
+          3 in
+      let api_options = Select.create ?action:(Some api_fun) [|"Alpha Vantage"; "Polygon.io"; "Twelve Data"; "APIStocks"|] api_index in
+      let button_row = [Layout.resident ticker_input; Layout.resident ticker_button; api_options]
+        |> Layout.flat ?align:(Some Center) ?hmargin:(Some 5) in
       let ticker_graph = Widget.image ~w:400 ~h:250 "plot.jpeg" in
       let data_row1 = [ticker_graph; ticker_graph]
         |> Layout.flat_of_w in
@@ -107,8 +148,24 @@ let main () =
           |> Layout.flat_of_w in
         let button_text = Label.create ?size:(Some 15) ?align:(Some Center) "Get Data" in
         let ticker_button = Widget.button ?label:(Some button_text) "Get Data" in
-        let button_row = [ticker_input; ticker_button]
-          |> Layout.flat_of_w in
+        let api_fun = function
+          | 0 -> api_selected := "Alpha Vantage"
+          | 1 -> api_selected := "Polygon.io"
+          | 2 -> api_selected := "Twelve Data"
+          | 3 -> api_selected := "APIStocks"
+          |_ -> failwith "Chose unsupported option for dropdown!" in
+          let api_index =
+            if !api_selected = "Alpha Vantage" then
+              0
+            else if !api_selected = "Polygon.io" then
+              1
+            else if !api_selected = "Twelve Data" then
+              2
+            else
+              3 in
+          let api_options = Select.create ?action:(Some api_fun) [|"Alpha Vantage"; "Polygon.io"; "Twelve Data"; "APIStocks"|] api_index in
+        let button_row = [Layout.resident ticker_input; Layout.resident ticker_button; api_options]
+          |> Layout.flat ?align:(Some Center) ?hmargin:(Some 5) in
         let tower = [top; Layout.resident ticker_text; button_row; Layout.resident (Widget.empty ~w:1000 ~h:600 ())]
           |> Layout.tower in
         Layout.set_rooms layout [tower];
