@@ -97,19 +97,19 @@ let atr highs lows closes =
   let float_of_some = function
   | None -> failwith "Expected non-none value!"
   | Some x -> x in
-  let rec atr_helper acc yest his los cls =
+  let rec atr_helper acc yest his los cls acc' =
     if yest = None then
       match his, los, cls with
-      | _ :: hi_tl, _ :: lo_tl, cl :: cl_tl -> atr_helper acc (Some cl) hi_tl lo_tl cl_tl
+      | _ :: hi_tl, _ :: lo_tl, cl :: cl_tl -> atr_helper acc (Some cl) hi_tl lo_tl cl_tl acc'
       | _ -> failwith "Arrays must not be initialized empty!"
     else
       match his, los, cls with
-      | [], [], [] -> acc /. (float_of_int (List.length closes) -. 1.)
+      | [], [], [] -> List.rev (acc /. (float_of_int (List.length closes) -. 1.) :: acc')
       | hi :: hi_tl, lo :: lo_tl, cl :: cl_tl ->
         let op1 = hi -. lo in
         let op2 = abs_float (hi -. (float_of_some yest)) in
         let op3 = abs_float (lo -. (float_of_some yest)) in
         let max_val = max op1 (max op2 op3) in
-        atr_helper (acc +. max_val) (Some cl) hi_tl lo_tl cl_tl
+        atr_helper (acc +. max_val) (Some cl) hi_tl lo_tl cl_tl ((acc +. max_val) /. (float_of_int (List.length acc' + 1)) :: acc')
       | _ -> failwith "Arrays not equal size for calculating ATR!" in
-  atr_helper 0. None highs lows closes
+  atr_helper 0. None highs lows closes []

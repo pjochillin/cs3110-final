@@ -9,3 +9,6 @@ val rsi_plot : float array -> unit
 
 (* [obv_plot obv] creates an OBV graph that plots the OBV data provided*)
 val obv_plot : float array -> unit
+
+(* [atr_plot obv] creates an OBV graph that plots the ATR data provided*)
+val atr_plot : float array -> unit

@@ -30,7 +30,7 @@ let tests =
     (* This test originates from https://school.stockcharts.com/doku.php?id=technical_indicators:on_balance_volume_obv *)
     ("obv_test 2" >:: fun _ -> assert_equal 54300. (List.hd (List.rev (Analysis.obv vols2 closes2))));
     (* This test originates from https://www.investopedia.com/terms/a/atr.asp#toc-how-to-calculate-the-atr *)
-    ("atr_test") >:: fun _ -> assert_equal 1.19 (Analysis.atr atr_highs atr_lows atr_closes);
+    ("atr_test") >:: fun _ -> assert_equal 1.19 (List.hd (List.rev (Analysis.atr atr_highs atr_lows atr_closes)));
 
   ]
 

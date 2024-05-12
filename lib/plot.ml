@@ -59,7 +59,6 @@ let rsi_plot rsi_line =
   plline x rsi_line;
   plend ()
 
-  
 let obv_plot obv_line = 
   let y_min = Array.fold_left (fun curr_min el -> min curr_min el) obv_line.(0) obv_line in
   let y_max = Array.fold_left (fun curr_min el -> max curr_min el) obv_line.(0) obv_line in
@@ -73,4 +72,19 @@ let obv_plot obv_line =
   plenv 0.0 (float_of_int ((Array.length x) + 2)) (y_min -. 1.) (y_max +. 1.) 0 0;
   plcol0 9;
   plline x obv_line;
+  plend ()
+
+let atr_plot atr_line = 
+  let y_min = Array.fold_left (fun curr_min el -> min curr_min el) atr_line.(0) atr_line in
+  let y_max = Array.fold_left (fun curr_min el -> max curr_min el) atr_line.(0) atr_line in
+  let x = Api.range_x (Array.length atr_line) in
+  plsfnam "atr.jpeg";
+  plsdev "jpgqt";
+  plspage 0.0 0.0 2400 1800 1000 1000;
+  plinit ();
+  plcol0 2; 
+  plwidth 2.0;
+  plenv 0.0 (float_of_int ((Array.length x) + 2)) (y_min -. 1.) (y_max +. 1.) 0 0;
+  plcol0 15;
+  plline x atr_line;
   plend ()
