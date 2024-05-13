@@ -94,11 +94,7 @@ let apistocks_series ticker =
   Yojson.Safe.from_string (Lwt_main.run body)
 
 let assoc_of_json json =
-  let data = 
-    if List.mem "Time Series (60min)" (keys json) then
-      to_assoc (member "Time Series (60min)" json)
-    else
-      to_assoc (member "Time Series (Daily)" json) in
+  let data = to_assoc (member "Time Series (60min)" json) in
   let extract_data el = 
     let _, info = el in
     let op = to_string (member "1. open" info) in

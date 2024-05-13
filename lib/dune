@@ -3,4 +3,6 @@
  (name final)
  (libraries plplot cohttp-lwt-unix yojson)
  (preprocess
-  (pps ppx_inline_test)))
+  (pps ppx_inline_test))
+ (instrumentation
+  (backend bisect_ppx)))

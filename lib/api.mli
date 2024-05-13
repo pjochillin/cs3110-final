@@ -27,3 +27,7 @@ val closes : t -> float array
 val volumes : t -> float array
 
 val range_x : int -> float array
+
+val days_before : int * int * int -> int -> int * int * int
+
+val leap_year : int -> bool
