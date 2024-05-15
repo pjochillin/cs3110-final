@@ -44,6 +44,7 @@ let main ticker =
 let ticker_input = Widget.text_input ()
 
 let main () =
+  let _ = Final.Ticker_news.fetch_news "AAPL" in
   let top =
     [
       Widget.empty ~w:120 ~h:0 ();
