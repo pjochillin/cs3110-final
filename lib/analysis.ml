@@ -124,20 +124,23 @@ let atr highs lows closes =
   in
   atr_helper 0. None highs lows closes []
 
-let cci data period =
-  let rec aux acc i =
-    if i < period then acc
+let cci high low close period =
+  let high_low = List.map2 (fun h l -> h +. l) high low in
+  let tp = List.map2 (fun hl c -> (hl +. c) /. 3.) high_low close in
+
+  let rec aux cci_values i =
+    if i < period then List.rev cci_values
     else
-      let subset = sub data (i - period) period in
+      let subset = sub tp (i - period) period in
       let sma = calculate_average subset in
-      let mean_deviation = calculate_mean_deviation subset sma period in
-      let typical_price = List.hd subset in
-      (* Assuming the latest price in the subset is the typical price for
-         today *)
-      let cci_value = (typical_price -. sma) /. (0.015 *. mean_deviation) in
-      aux (cci_value :: acc) (i - 1)
+      let mean_dev = calculate_mean_deviation subset sma period in
+      let cci_value =
+        if mean_dev = 0. then 0.
+        else (List.nth tp (i - 1) -. sma) /. (0.015 *. mean_dev)
+      in
+      aux (cci_value :: cci_values) (i - 1)
   in
-  List.rev (aux [] (List.length data))
+  aux [] (List.length tp)
 
 let bollinger_bands data period =
   let rec aux middle_band upper_band lower_band i =
