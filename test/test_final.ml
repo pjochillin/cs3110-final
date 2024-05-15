@@ -80,6 +80,8 @@ let tests =
       assert_equal (-73)
         (Analysis.cci cci_highs cci_lows cci_closes 20
         |> List.hd |> int_of_float) );
+    (*This test and data originates from
+      https://school.stockcharts.com/doku.php?id=technical_indicators:bollinger_bands*)
     ( "bollinger_test" >:: fun _ ->
       let middle_band, upper_band, lower_band =
         Analysis.bollinger_bands bollinger_closes 20
