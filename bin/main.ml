@@ -135,12 +135,21 @@ let main () =
       let atr_graph = Widget.image ~w:400 ~h:250 "atr.jpeg" in
       let data2_row2 = [ obv_graph; atr_graph ] |> Layout.flat_of_w in
       let data2_tower = [ data_row1; data2_row2 ] |> Layout.tower in
+      let cci_graph = Widget.image ~w:400 ~h:250 "cci.jpeg" in
+      let bollinger_graph = Widget.image ~w:400 ~h:250 "bollinger_bands.jpeg" in
+      let data3_row2 = [ cci_graph; bollinger_graph ] |> Layout.flat_of_w in
+      let data3_tower = [ data_row1; data3_row2 ] |> Layout.tower in
+      let stochastic_graph = Widget.image ~w:400 ~h:250 "stochastic.jpeg" in
+      let data4_row2 = [ stochastic_graph ] |> Layout.flat_of_w in
+      let data4_tower = [ data_row1; data4_row2 ] |> Layout.tower in
       let tabs =
         Tabs.create ~slide:Right
           [
             ("Graph", Layout.resident graph);
             ("MACD/RSI", data_tower);
             ("OBV/ATR", data2_tower);
+            ("CCI/BOL", data3_tower);
+            ("STOCH", data4_tower);
           ]
       in
       let tower =
@@ -182,12 +191,42 @@ let main () =
         in
         Widget.on_click ~click:atr_fun' overlay
       in
+      let cci_fun _ =
+        let overlay = Widget.image ~w:1000 ~h:550 "cci.jpeg" in
+        Layout.set_rooms data3_tower [ Layout.resident overlay ];
+        let cci_fun' _ =
+          let old_tower = [ data_row1; data3_row2 ] |> Layout.tower in
+          Layout.set_rooms data3_tower [ old_tower ]
+        in
+        Widget.on_click ~click:cci_fun' overlay
+      in
+      let bol_fun _ =
+        let overlay = Widget.image ~w:1000 ~h:550 "bollinger_bands.jpeg" in
+        Layout.set_rooms data3_tower [ Layout.resident overlay ];
+        let bol_fun' _ =
+          let old_tower = [ data_row1; data3_row2 ] |> Layout.tower in
+          Layout.set_rooms data3_tower [ old_tower ]
+        in
+        Widget.on_click ~click:bol_fun' overlay
+      in
+      let stoch_fun _ =
+        let overlay = Widget.image ~w:1000 ~h:550 "stochastic.jpeg" in
+        Layout.set_rooms data4_tower [ Layout.resident overlay ];
+        let stoch_fun' _ =
+          let old_tower = [ data_row1; data4_row2 ] |> Layout.tower in
+          Layout.set_rooms data4_tower [ old_tower ]
+        in
+        Widget.on_click ~click:stoch_fun' overlay
+      in
       Layout.set_rooms layout [ tower ];
       Widget.on_click ~click:button_fun ticker_button;
       Widget.on_click ~click:macd_fun macd_graph;
       Widget.on_click ~click:rsi_fun rsi_graph;
       Widget.on_click ~click:obv_fun obv_graph;
-      Widget.on_click ~click:atr_fun atr_graph
+      Widget.on_click ~click:atr_fun atr_graph;
+      Widget.on_click ~click:cci_fun cci_graph;
+      Widget.on_click ~click:bol_fun bollinger_graph;
+      Widget.on_click ~click:stoch_fun stochastic_graph
     with _ ->
       let top =
         [
