@@ -100,6 +100,8 @@ let tests =
       assert_equal 94 (upper_band |> List.rev |> List.hd |> int_of_float);
       assert_equal 91 (middle_band |> List.rev |> List.hd |> int_of_float);
       assert_equal 87 (lower_band |> List.rev |> List.hd |> int_of_float) );
+    (*This test and data originates from
+      https://indzara.com/free-excel-template-for-stochastic-technical-indicator/*)
     ( "stochastic_oscillator_test" >:: fun _ ->
       let k_values, d_values =
         Analysis.stochastic_oscillator stoch_highs stoch_lows stoch_closes 14 3
