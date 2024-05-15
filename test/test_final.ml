@@ -34,6 +34,17 @@ let cci_lows =
 let cci_closes =
   List.map float_of_string (BatList.of_enum (BatFile.lines_of "cci_closes.txt"))
 
+let stoch_highs =
+  List.map float_of_string
+    (BatList.of_enum (BatFile.lines_of "stoch_highs.txt"))
+
+let stoch_lows =
+  List.map float_of_string (BatList.of_enum (BatFile.lines_of "stoch_lows.txt"))
+
+let stoch_closes =
+  List.map float_of_string
+    (BatList.of_enum (BatFile.lines_of "stoch_closes.txt"))
+
 let bollinger_closes =
   List.map float_of_string
     (BatList.of_enum (BatFile.lines_of "bollinger_data.txt"))
@@ -89,6 +100,16 @@ let tests =
       assert_equal 94 (upper_band |> List.rev |> List.hd |> int_of_float);
       assert_equal 91 (middle_band |> List.rev |> List.hd |> int_of_float);
       assert_equal 87 (lower_band |> List.rev |> List.hd |> int_of_float) );
+    ( "stochastic_oscillator_test" >:: fun _ ->
+      let k_values, d_values =
+        Analysis.stochastic_oscillator stoch_highs stoch_lows stoch_closes 14 3
+      in
+      assert_equal 95.68
+        (Float.round ((k_values |> List.rev |> List.hd) *. 100.) /. 100.)
+        ~printer:string_of_float;
+      assert_equal 93.57
+        (Float.round ((d_values |> List.rev |> List.hd) *. 100.) /. 100.)
+        ~printer:string_of_float );
     ( "days_before_test same" >:: fun _ ->
       assert_equal (2024, 5, 12) (Api.days_before (2024, 5, 12) 0) );
     ( "days_before_test same month" >:: fun _ ->

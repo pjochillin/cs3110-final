@@ -187,7 +187,7 @@ let simple_moving_average period prices =
   aux [] (List.length prices)
 
 let stochastic_d k_values period =
-  let k_sma = simple_moving_average period k_values in
+  let k_sma = List.rev (simple_moving_average period k_values) in
   k_sma
 
 let stochastic_oscillator highs lows closes period_k period_d =
