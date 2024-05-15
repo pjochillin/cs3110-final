@@ -34,11 +34,28 @@ let main ticker =
     Analysis.atr (Array.to_list high_data) (Array.to_list low_data)
       (Array.to_list close_data)
   in
+  let cci =
+    Analysis.cci (Array.to_list high_data) (Array.to_list low_data)
+      (Array.to_list close_data) 20
+  in
+  let bollinger_middle, bollinger_upper, bollinger_lower =
+    Analysis.bollinger_bands (Array.to_list close_data) 20
+  in
+  let stochastic_k, stochastic_d =
+    Analysis.stochastic_oscillator (Array.to_list high_data)
+      (Array.to_list low_data) (Array.to_list close_data) 14 3
+  in
   Plot.ticker_plot x open_data high_data low_data close_data;
   Plot.macd_plot (Array.of_list macd) (Array.of_list signal);
   Plot.rsi_plot (Array.of_list rsi);
   Plot.obv_plot (Array.of_list obv);
   Plot.atr_plot (Array.of_list atr);
+  Plot.cci_plot (Array.of_list cci);
+  Plot.bollinger_bands_plot
+    (Array.of_list bollinger_middle)
+    (Array.of_list bollinger_upper)
+    (Array.of_list bollinger_lower);
+  Plot.stochastic_plot (Array.of_list stochastic_k) (Array.of_list stochastic_d);
   Lwt.return_unit
 
 let ticker_input = Widget.text_input ()

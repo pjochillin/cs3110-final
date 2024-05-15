@@ -140,7 +140,7 @@ let cci_plot cci_line =
   plline x cci_line;
   plend ()
 
-let bollinger_bands_plot top_band middle_band bottom_band =
+let bollinger_bands_plot middle_band top_band bottom_band =
   let temp_min =
     Array.fold_left
       (fun curr_min el -> min curr_min el)
