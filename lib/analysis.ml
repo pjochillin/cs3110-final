@@ -155,3 +155,39 @@ let bollinger_bands data period =
         (i - 1)
   in
   aux [] [] [] (List.length data)
+
+(* Function to extract highs, lows, and closes from a list of close prices *)
+let extract_hlc_from_closes closes =
+  List.fold_right
+    (fun close (hs, ls, cs) -> (close :: hs, close :: ls, close :: cs))
+    closes ([], [], [])
+
+(* Stochastic %K calculation based on highs, lows, and closes *)
+let stochastic_k highs lows closes period =
+  let rec aux k_values i =
+    if i < period then List.rev k_values
+    else
+      let high_subset = sub highs (i - period) period in
+      let low_subset = sub lows (i - period) period in
+      let close = List.nth closes (i - 1) in
+      let highest_high = List.fold_left max (List.hd high_subset) high_subset in
+      let lowest_low = List.fold_left min (List.hd low_subset) low_subset in
+      let k_value =
+        (close -. lowest_low) /. (highest_high -. lowest_low) *. 100.
+      in
+      aux (k_value :: k_values) (i - 1)
+  in
+  aux [] (List.length closes)
+
+(* Calculate %D for Stochastic Oscillator as SMA of %K *)
+let stochastic_d k_values period =
+  let k_sma = ema period k_values in
+  k_sma
+
+(* Redefined stochastic_oscillator that takes a list of close prices and a
+   period *)
+let stochastic_oscillator closes period_k period_d =
+  let highs, lows, closes = extract_hlc_from_closes closes in
+  let k_values = stochastic_k highs lows closes period_k in
+  let d_values = stochastic_d k_values period_d in
+  (k_values, d_values)
