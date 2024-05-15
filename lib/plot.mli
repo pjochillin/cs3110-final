@@ -24,7 +24,7 @@ val atr_plot : float array -> unit
 val cci_plot : float array -> unit
 (** [cci_plot cci_line] creates a CCI graph that plots the CCI data provided*)
 
-val bollinger_plot : float array -> float array -> unit
+val bollinger_bands_plot : float array -> float array -> float array -> unit
 (** [bollinger_plot top_band middle_band bottom_band] creates a Bollinger Bands
     graph that plots the top, middle, and bottom lines data provided *)
 
