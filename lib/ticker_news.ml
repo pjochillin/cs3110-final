@@ -23,8 +23,4 @@ let assoc_of_ticker_json json =
 let fetch_news ticker =
   let data = fetch_ticker_json ticker in
   let results = assoc_of_ticker_json data in
-  Lwt.return
-    (List.iter
-       (fun sublist ->
-         List.iter (fun (s1, s2) -> Printf.printf "%s: %s\n" s1 s2) sublist)
-       results)
+  Lwt.return results
