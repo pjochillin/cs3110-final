@@ -34,6 +34,10 @@ let cci_lows =
 let cci_closes =
   List.map float_of_string (BatList.of_enum (BatFile.lines_of "cci_closes.txt"))
 
+let bollinger_closes =
+  List.map float_of_string
+    (BatList.of_enum (BatFile.lines_of "bollinger_data.txt"))
+
 let alphavantage_data = Yojson.Safe.from_file "alphavantage_data.txt"
 let polygon_data = Yojson.Safe.from_file "polygon_data.txt"
 let twelvedata_data = Yojson.Safe.from_file "twelvedata_data.txt"
@@ -72,11 +76,17 @@ let tests =
     ( "cci_test 1" >:: fun _ ->
       assert_equal 102
         (Analysis.cci cci_highs cci_lows cci_closes 20
-        |> List.rev |> List.hd |> int_of_float) );
-    ( "cci_test 2" >:: fun _ ->
+        |> List.rev |> List.hd |> int_of_float);
       assert_equal (-73)
         (Analysis.cci cci_highs cci_lows cci_closes 20
-        |> List.rev |> List.rev |> List.hd |> int_of_float) );
+        |> List.hd |> int_of_float) );
+    ( "bollinger_test" >:: fun _ ->
+      let middle_band, upper_band, lower_band =
+        Analysis.bollinger_bands bollinger_closes 20
+      in
+      assert_equal 94 (upper_band |> List.rev |> List.hd |> int_of_float);
+      assert_equal 91 (middle_band |> List.rev |> List.hd |> int_of_float);
+      assert_equal 87 (lower_band |> List.rev |> List.hd |> int_of_float) );
     ( "days_before_test same" >:: fun _ ->
       assert_equal (2024, 5, 12) (Api.days_before (2024, 5, 12) 0) );
     ( "days_before_test same month" >:: fun _ ->
