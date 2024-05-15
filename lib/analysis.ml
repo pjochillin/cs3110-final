@@ -22,6 +22,11 @@ let calculate_mean_deviation data sma period =
   let deviations = List.map (fun x -> abs_float (x -. sma)) data in
   calculate_average deviations
 
+let calculate_standard_deviation data sma =
+  let squared_diffs = List.map (fun x -> (x -. sma) ** 2.) data in
+  let variance = calculate_average squared_diffs in
+  sqrt variance
+
 let calculate_rsi close_prices period =
   let rec calculate_gains_losses prev_close gains losses = function
     | [] -> (gains, losses)
@@ -133,3 +138,20 @@ let cci data period =
       aux (cci_value :: acc) (i - 1)
   in
   List.rev (aux [] (List.length data))
+
+let bollinger_bands data period =
+  let rec aux middle_band upper_band lower_band i =
+    if i < period then
+      (List.rev middle_band, List.rev upper_band, List.rev lower_band)
+    else
+      let subset = sub data (i - period) period in
+      let sma = calculate_average subset in
+      let std_dev = calculate_standard_deviation subset sma in
+      let upper_band_value = sma +. (2. *. std_dev) in
+      let lower_band_value = sma -. (2. *. std_dev) in
+      aux (sma :: middle_band)
+        (upper_band_value :: upper_band)
+        (lower_band_value :: lower_band)
+        (i - 1)
+  in
+  aux [] [] [] (List.length data)
