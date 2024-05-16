@@ -22,12 +22,10 @@ demo-video-url: ""
 # Write a short, attention-grabbing description of your project.
 desc: >
   Our project is a finance analyzer. It parses and analyzes historical financial
-  data from various sources, such as stock prices, ETFs, and cryptocurrencies.
+  data from stock prices.
   The analyzer can also provide insights to volatility measures, moving averages,
-  as well as create predictive models.
+  and graph different indicators for further analysis.
+  In specific, it tracks MACD, RSI, OBV, and ATR, as well as Bollinger Bands, CCI,
+  and Stochastic Oscillations.
 
-  The I/O is a GUI that manages all of the different options that the tool has.
-
-  In the demo, we have so far implemented analyzing stock prices and providing insights
-  to stock trends by outputting images of graphs showing the recent trends in a specific
-  ticker.
+  The I/O is a GUI that displays all of the different options that the tool has.

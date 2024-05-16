@@ -1,3 +1,281 @@
+commit 4bfc4a9e9239a68225a4616681adb17649f6ef85
+Author: Joshua Ochalek <jo447@cornell.edu>
+Date:   Wed May 15 23:45:00 2024 -0400
+
+    Formatting, GUI additions
+    
+    - Added Bollinger Bands, CCI, and Stochastic Oscillators to the GUI
+    - Formatted using ocamlformat
+    - Various extraneous code removal
+
+commit 7432aaadbf6a4c8944265d6c134032ee588cc147
+Author: Krish Mehra <km937@cornell.edu>
+Date:   Wed May 15 17:32:18 2024 -0400
+
+    Complete implementation of CCI, bollinger, stochastic oscillator plots
+
+commit d35c65bb6d2c8b0860c15e162486a7563c98dece
+Author: Krish Mehra <km937@cornell.edu>
+Date:   Wed May 15 17:25:40 2024 -0400
+
+    Update testing documentation
+
+commit ed9f5346c6c79fb2fc8c69e6a9dedc78bf148989
+Author: Krish Mehra <km937@cornell.edu>
+Date:   Wed May 15 17:25:04 2024 -0400
+
+    -Correct stochastic_d line
+    -Implement stochastic line tests and add data for the tests
+
+commit da76decedb9b4ba590e5f881059c243d7ddfb813
+Author: Krish Mehra <km937@cornell.edu>
+Date:   Wed May 15 17:06:25 2024 -0400
+
+    Improve stochastic_d to use SMA instead of EMA
+
+commit 181f62f972e46189037036a8c69c497000dca13a
+Author: Krish Mehra <km937@cornell.edu>
+Date:   Wed May 15 17:01:41 2024 -0400
+
+    Remove unused imports and add testing docs
+
+commit 4d99b64559affbe3adc08760d97fcd1a019e9977
+Author: Krish Mehra <km937@cornell.edu>
+Date:   Wed May 15 16:57:55 2024 -0400
+
+    Implement bollinger bands tests
+    -Add test data
+    -Write test cases
+
+commit 868051e5d0d5fae2eca4988261c43abd0e9c0e95
+Author: Krish Mehra <km937@cornell.edu>
+Date:   Wed May 15 16:42:26 2024 -0400
+
+    Correct CCI indicator to account for high, low, and close. Implement testing data and tests for CCI
+
+commit 6411f4fd772a057a686cab36d313c947585caa36
+Author: Krish Mehra <km937@cornell.edu>
+Date:   Wed May 15 15:46:05 2024 -0400
+
+    Change return type of fetch_news to work in UI
+
+commit 91044c41f29bab68d2b357847772f3d3eb9b08c1
+Author: Krish Mehra <km937@cornell.edu>
+Date:   Wed May 15 14:42:41 2024 -0400
+
+    Implement CCI/Bollinger/Stochastic Oscillator into UI with plots
+
+commit 6cc7d4132bd2546217e553192fed7668ca25b8e9
+Author: Krish Mehra <km937@cornell.edu>
+Date:   Wed May 15 14:18:16 2024 -0400
+
+    Fix type errors in plot.mli
+
+commit 1e2ed928b4b1d8d2ec361cd8fac03642af0aed04
+Author: Krish Mehra <km937@cornell.edu>
+Date:   Wed May 15 14:13:08 2024 -0400
+
+    Implement plots for CCI, Bollinger Bands, and Stochastic Oscillator in plot.ml/mli
+
+commit 54d7544c53a4450cfa25f67030e6df87199e6898
+Author: Krish Mehra <km937@cornell.edu>
+Date:   Wed May 15 13:56:45 2024 -0400
+
+    -Reimplement fetch_news to work correctly by calling on two helper functions:
+    fetch_ticker_json : receives json from TickerTick about a ticker
+    assoc_of_ticker_json : converts json information to an association list
+
+commit 83749df3cc92f14f147394bf851ae5176f68379c
+Author: Krish Mehra <km937@cornell.edu>
+Date:   Wed May 15 12:43:43 2024 -0400
+
+    -Add Stochastic Oscillator as indicator in analysis.ml/mli
+
+commit 497a62100130bbe99b8db98b4bc1624acf002509
+Author: Krish Mehra <km937@cornell.edu>
+Date:   Wed May 15 12:28:57 2024 -0400
+
+    -Add Bollinger Bands as indicator in analysis.ml/mli
+
+commit 5b1020ccc804f6dad28a890d1ebcfcc54a54e97e
+Author: Krish Mehra <km937@cornell.edu>
+Date:   Wed May 15 12:24:11 2024 -0400
+
+    -Add CCI as indicator in analysis.ml
+    -Implement API call to receive news headline information
+
+commit 38f0455a033b8583a20bdbf635970150e4601260
+Author: Joshua Ochalek <jo447@cornell.edu>
+Date:   Sun May 12 21:49:42 2024 -0400
+
+    Update ocamlformat
+    
+    - Update to match all other assignments/projects
+
+commit 4ac17a1c65ef34bed75d24d6783e5117ffad2a93
+Author: Joshua Ochalek <jo447@cornell.edu>
+Date:   Sun May 12 21:30:33 2024 -0400
+
+    Bisect Coverage Testing
+    
+    - Covered 100% of api.ml
+    - Covered part of analysis.ml
+
+commit c0dfed97ac648b539b47763a3e6f95d508c718ff
+Author: Joshua Ochalek <jo447@cornell.edu>
+Date:   Sun May 12 16:44:55 2024 -0400
+
+    Add API dropdown to choose source of data
+    
+    - Add support for Polygon.io, APIStocks, and Twelve Data requests
+    - Update INSTALL.md as necessary
+
+commit bf28c3054ffaf6254c449cf8b12c48552b0f8860
+Author: Joshua Ochalek <jo447@cornell.edu>
+Date:   Sat May 11 23:52:07 2024 -0400
+
+    Add ATR Plot
+    
+    - Adjusted Analysis.atr to return a list of accumulated ATRs, tests
+    - Added ATR plot in GUI
+
+commit 6fde1b211b01a0f7999f56b67806e0693e89dd2b
+Author: Joshua Ochalek <jo447@cornell.edu>
+Date:   Sat May 11 22:45:44 2024 -0400
+
+    Add ATR and start testing
+    
+    - Implemented ATR over a period, not in GUI yet
+    - Added an ATR test and started to do bulk testing (data not valid as of now)
+
+commit b802655cd84f3aac4f9bb834fa94efaf51f55da9
+Author: Joshua Ochalek <jo447@cornell.edu>
+Date:   Sat May 11 17:48:54 2024 -0400
+
+    Add graphs for RSI, OBV, MACD
+    
+    - Added graphs in GUI
+    - Allowed zooming in by clicking
+
+commit c03237b065ea70cc30ebf37f17c33fb7b4c82640
+Author: Joshua Ochalek <jo447@cornell.edu>
+Date:   Fri May 10 00:16:36 2024 -0400
+
+    Add graphs to GUI
+    
+    - Allow ticker input on GUI
+    - Change graph after change in text input + button press
+
+commit 1e4200a4ace160d6d0cc8f6503a2b9d88bccd548
+Author: Joshua Ochalek <jo447@cornell.edu>
+Date:   Thu May 9 00:44:52 2024 -0400
+
+    Initial GUI commit
+    
+    - Added GUI libraries to INSTALL.md
+    - Added initial GUI for ticker input, title, info text
+
+commit 2957e464779fa564ae36cc78ece50b3607a9da0d
+Author: Joshua Ochalek <jo447@cornell.edu>
+Date:   Wed May 8 21:08:13 2024 -0400
+
+    Remove extraneous code
+    
+    - Remove reworked code from Api compilation unit
+
+commit 7437c091e9fb269d5b58ee8127ae6edbb01773db
+Author: Krish Mehra <km937@cornell.edu>
+Date:   Mon May 6 13:43:50 2024 -0400
+
+    resolve git conflicts
+
+commit 7d34c3c79319434b779e59f3df3ae927b1392dab
+Author: Krish Mehra <km937@cornell.edu>
+Date:   Mon May 6 13:34:07 2024 -0400
+
+    Add controller.ml
+
+commit 7f0d903f43c508f42277ba799ab045c3754503b4
+Author: Krish Mehra <km937@cornell.edu>
+Date:   Sat May 4 22:27:16 2024 -0400
+
+    Show rsi, macd, signal lines in main.ml output for stock ticeres
+
+commit 3d9cbfe96050db12dc595badb78661f0ddedca8a
+Author: Joshua Ochalek <jo447@cornell.edu>
+Date:   Sun May 5 17:22:39 2024 -0400
+
+    Implement OBV with tests
+    
+    - Added two tests via txt data
+    - Added API calls to a daily dataset, not hourly
+
+commit 7e4189084514655c74a3760627ada5359dbd007d
+Author: Joshua Ochalek <jo447@cornell.edu>
+Date:   Sun May 5 13:00:54 2024 -0400
+
+    Remove unnecessary imports
+    
+    - In bin/dune
+
+commit 1476b5ba0370c893c162b3170ac3508be7ec623a
+Author: Joshua Ochalek <jo447@cornell.edu>
+Date:   Sun May 5 12:59:56 2024 -0400
+
+    Compartmentalize API
+    
+    - Created API compilation unit for all API calls and data manipulation
+
+commit f745d9a80a8765c0943fc87b4ebcfd2be7d1e011
+Author: Krish Mehra <km937@cornell.edu>
+Date:   Sat May 4 21:48:56 2024 -0400
+
+    Update analysis.ml documentation
+
+commit 3277d1c0ff12674c24fd2430327e9254c90577aa
+Author: Krish Mehra <km937@cornell.edu>
+Date:   Sat May 4 21:45:29 2024 -0400
+
+    Implement MACD with 12-day EMA and 26-day EMA. Return MACD with MACD line and signal line
+
+commit f5759c6ac86c7f36ca8313b25fa589ce64276c43
+Author: Krish Mehra <km937@cornell.edu>
+Date:   Sat May 4 21:31:16 2024 -0400
+
+    Implement RSI indicator into analysis.ml
+
+commit 3f276c19482dbb94233a72144dbd9c6e0fd9dd7e
+Author: Joshua Ochalek <jo447@cornell.edu>
+Date:   Thu May 2 23:39:01 2024 -0400
+
+    MS2 Git Log, Yaml file
+    
+    - Updated INSTALL.md for disclaimer with Macs
+
+commit bd2014749c2abbec044a683658a916efff694a75
+Author: Krish Mehra <km937@cornell.edu>
+Date:   Wed May 1 22:09:38 2024 -0400
+
+    Update tasks
+
+commit 202c233716b174b7cdbfc41f04d09921a99bbfe4
+Author: Krish Mehra <km937@cornell.edu>
+Date:   Wed May 1 22:03:00 2024 -0400
+
+    Add files for analysis: analysis.mli/ml
+
+commit 7116a74c8232a95eb1e78b0a9fb06385f7b60bd9
+Author: Krish Mehra <km937@cornell.edu>
+Date:   Wed May 1 22:02:06 2024 -0400
+
+    tasks.txt
+
+commit b250fa1a6a6004b3094fa94c18adad9c4a23eb63
+Author: at846 <arnavstevatia@gmail.com>
+Date:   Tue Apr 30 09:03:52 2024 -0400
+
+    changed lib file
+
 commit a9d9581bb44819cc8e3bde0bb073d0ca1d82a30c
 Author: Joshua Ochalek <jo447@cornell.edu>
 Date:   Thu Mar 28 22:41:37 2024 -0400
@@ -51,12 +329,6 @@ Date:   Tue Mar 26 00:45:49 2024 -0400
 
     Fix README netid
 
-commit dxlp77sc0yivqdvsi87dsckcmll4nr5buom2y8zd
-Author: km937 <km937@cornell.edu>
-Date:   Tue Mar 26 00:40:02 2024 -0400
-
-    Fix README netid
-
 commit 8289e52239093dfab0c9dbb8089277ec1dc1398d
 Author: Joshua Ochalek <jo447@cornell.edu>
 Date:   Tue Mar 26 00:30:18 2024 -0400
@@ -86,13 +358,13 @@ Date:   Sun Mar 24 16:39:11 2024 -0400
     Initialize Dune
 
 commit d392cf4d0d677d12232fb56dae787526e4197279
-Author: Joshua Ochalek <jo447@cornell.edu>
+Author: pjochillin <pjochillin@gmail.com>
 Date:   Thu Mar 14 21:25:10 2024 -0400
 
     Update README.md
 
 commit 76380847822bd1050c98fdb653b903dee3618066
-Author: Joshua Ochalek <jo447@cornell.edu>
+Author: pjochillin <pjochillin@gmail.com>
 Date:   Thu Mar 14 21:24:52 2024 -0400
 
     Update README
@@ -100,7 +372,7 @@ Date:   Thu Mar 14 21:24:52 2024 -0400
     Edit formatting
 
 commit b7106c4b283179219b506386dcf016bfeb53e184
-Author: Joshua Ochalek <jo447@cornell.edu>
+Author: pjochillin <pjochillin@gmail.com>
 Date:   Thu Mar 14 21:23:58 2024 -0400
 
     Create README.md
