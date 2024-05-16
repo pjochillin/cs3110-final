@@ -35,16 +35,16 @@ val stochastic_oscillator :
   int ->
   float list * float list
 
-(* [take i lst] returns a list with the first [i] elements from [lst] Note: only
-   exposed for use in testing *)
+(* [take i lst] returns a list with the first [i] elements from [lst]. Note:
+   only exposed for use in testing *)
 val take : int -> 'a list -> 'a list
 
 (* [sub lst i j] splices the list and grabs [j] elements starting at index [i]
-   of [lst]] Note: only exposed for use in testing *)
+   of [lst]]. Note: only exposed for use in testing *)
 val sub : 'a list -> int -> int -> 'a list
 
-(* [calculate_average lst] returns the average of the floats in [lst] Note: only
-   exposed for use in testing *)
+(* [calculate_average lst] returns the average of the floats in [lst]. Note:
+   only exposed for use in testing *)
 val calculate_average : float list -> float
 
 (* [calculate_mean_deviation lst sma _] returns the deviation of the mean of

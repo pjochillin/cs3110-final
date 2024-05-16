@@ -141,27 +141,75 @@ let main () =
         ]
         |> Layout.flat ?align:(Some Center) ?hmargin:(Some 5)
       in
-      let macd_graph = Widget.image ~w:400 ~h:250 "macd.jpeg" in
-      let rsi_graph = Widget.image ~w:400 ~h:250 "rsi.jpeg" in
-      let data_row1 = [ macd_graph; rsi_graph ] |> Layout.flat_of_w in
-      let obv_graph = Widget.image ~w:400 ~h:250 "obv.jpeg" in
-      let atr_graph = Widget.image ~w:400 ~h:250 "atr.jpeg" in
-      let data_row2 = [ obv_graph; atr_graph ] |> Layout.flat_of_w in
-      let data_tower = [ data_row1; data_row2 ] |> Layout.tower in
-      let bollinger_graph = Widget.image ~w:400 ~h:250 "bollinger_bands.jpeg" in
-      let cci_graph = Widget.image ~w:400 ~h:250 "cci.jpeg" in
-      let data2_row1 = [ bollinger_graph; cci_graph ] |> Layout.flat_of_w in
-      let stochastic_graph = Widget.image ~w:400 ~h:250 "stochastic.jpeg" in
-      let data2_row2 =
-        [ stochastic_graph; Widget.empty ~w:400 ~h:250 () ] |> Layout.flat_of_w
+      let macd_graph = Widget.image ~w:350 ~h:200 "macd.jpeg" in
+      let macd_tower =
+        [ Widget.label "MACD"; macd_graph ] |> Layout.tower_of_w
       in
+      let rsi_graph = Widget.image ~w:350 ~h:200 "rsi.jpeg" in
+      let rsi_tower = [ Widget.label "RSI"; rsi_graph ] |> Layout.tower_of_w in
+      let data_row1 = [ macd_tower; rsi_tower ] |> Layout.flat in
+      let obv_graph = Widget.image ~w:350 ~h:200 "obv.jpeg" in
+      let obv_tower = [ Widget.label "OBV"; obv_graph ] |> Layout.tower_of_w in
+      let atr_graph = Widget.image ~w:350 ~h:200 "atr.jpeg" in
+      let atr_tower = [ Widget.label "ATR"; atr_graph ] |> Layout.tower_of_w in
+      let data_row2 = [ obv_tower; atr_tower ] |> Layout.flat in
+      let data_tower = [ data_row1; data_row2 ] |> Layout.tower in
+      let bollinger_graph = Widget.image ~w:350 ~h:200 "bollinger_bands.jpeg" in
+      let bollinger_tower =
+        [ Widget.label "Bollinger Bands"; bollinger_graph ] |> Layout.tower_of_w
+      in
+      let cci_graph = Widget.image ~w:350 ~h:200 "cci.jpeg" in
+      let cci_tower = [ Widget.label "CCI"; cci_graph ] |> Layout.tower_of_w in
+      let data2_row1 = [ bollinger_tower; cci_tower ] |> Layout.flat in
+      let stochastic_graph = Widget.image ~w:350 ~h:200 "stochastic.jpeg" in
+      let stochastic_tower =
+        [ Widget.label "Stochastic Oscillator"; stochastic_graph ]
+        |> Layout.tower_of_w
+      in
+      let articles =
+        Lwt_main.run (Ticker_news.fetch_news (Widget.get_text ticker_input))
+      in
+      let to_text_display acc x =
+        let chars_per_line = 78 in
+        let rec to_display_helper x =
+          if String.length x <= chars_per_line then x
+          else
+            let remaining_length = String.length x - chars_per_line in
+            String.sub x 0 chars_per_line
+            ^ "\n"
+            ^ to_display_helper (String.sub x chars_per_line remaining_length)
+        in
+        acc ^ "\n" ^ to_display_helper x
+      in
+      let article_1 =
+        Widget.text_display ~w:550 ~h:80
+          (List.nth articles 0 |> List.map snd
+          |> List.fold_left to_text_display ""
+          |> String.trim)
+      in
+      let article_2 =
+        Widget.text_display ~w:550 ~h:80
+          (List.nth articles 1 |> List.map snd
+          |> List.fold_left to_text_display ""
+          |> String.trim)
+      in
+      let article_3 =
+        Widget.text_display ~w:550 ~h:80
+          (List.nth articles 2 |> List.map snd
+          |> List.fold_left to_text_display ""
+          |> String.trim)
+      in
+      let article_tower =
+        [ article_1; article_2; article_3 ] |> Layout.tower_of_w
+      in
+      let data2_row2 = [ stochastic_tower; article_tower ] |> Layout.flat in
       let data2_tower = [ data2_row1; data2_row2 ] |> Layout.tower in
       let tabs =
         Tabs.create ~slide:Right
           [
             ("Graph", Layout.resident graph);
             ("MACD/RSI/OBV/ATR", data_tower);
-            ("BOLL/CCI/STOCH", data2_tower);
+            ("BOLL/CCI/STOCH/News", data2_tower);
           ]
       in
       let tower =
@@ -278,11 +326,15 @@ let main () =
         ]
         |> Layout.flat ?align:(Some Center) ?hmargin:(Some 5)
       in
+      let error =
+        Widget.label ?size:(Some 48) "Error: Invalid Ticker/API Out of Calls"
+      in
       let tower =
         [
           top;
           Layout.resident ticker_text;
           button_row;
+          Layout.resident error;
           Layout.resident (Widget.empty ~w:1000 ~h:600 ());
         ]
         |> Layout.tower

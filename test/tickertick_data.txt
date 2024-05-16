@@ -1,0 +1,638 @@
+{
+  "stories": [
+    {
+      "id": "-6170918869231303420",
+      "title": "Pairing watch to iPhone - I got a new IPhone 14 and am having trouble pairing my watch. ...",
+      "url": "https://www.reddit.com/r/iphone/comments/1ctcyrd/pairing_watch_to_iphone/",
+      "site": "reddit.com",
+      "time": 1715866264000,
+      "favicon_url": "https://static.tickertick.com/website_icons/reddit.com.ico",
+      "tags": [
+        "aapl"
+      ],
+      "description": "I got a new IPhone 14 and am having trouble pairing my watch. Both iPhone and watch are updated. I cannot unpair my watch from my old iPhone X because the screen does not work. Is there a way I can connect it to my new iPhone if I cannot unpair it from my old phone? Any help is appreciated. :) submitted by /u/DragDolly [link] [comments] I got a new IPhone 14 and am having trouble pairing my watch. Both iPhone and watch are updated. I cannot unpair my watch from my old iPhone X because the screen does not work. Is there a way I can connect it to my new iPhone if I cannot unpair it from my old phone? Any help is appreciated. :) submitted by /u/DragDolly [link] [comments]",
+      "tickers": [
+        "aapl"
+      ]
+    },
+    {
+      "id": "6428588174808090650",
+      "title": "Elevate your iPad with an adjustable 8-port docking stand, on sale for $54.99",
+      "url": "https://www.cultofmac.com/856375/tablet-stand-docking-station-ipad-android/",
+      "site": "cultofmac.com",
+      "time": 1715866231000,
+      "favicon_url": "https://static.tickertick.com/website_icons/cultofmac.com.ico",
+      "tags": [
+        "aapl"
+      ],
+      "description": "Why search for an iPad dongle? This adjustable tablet stand and dock station combo comes with eight useful ports to keep your iPad connected. (via Cult of Mac - Apple news, rumors, reviews and how-tos)",
+      "tickers": [
+        "aapl"
+      ]
+    },
+    {
+      "id": "2870565751995862664",
+      "title": "How Smart Folio got even smarter",
+      "url": "https://www.idownloadblog.com/2024/05/16/apple-ipad-smart-folio-viewing-angles-redesigned-magnets/",
+      "site": "idownloadblog.com",
+      "time": 1715866222000,
+      "favicon_url": "https://static.tickertick.com/website_icons/idownloadblog.com.ico",
+      "tags": [
+        "aapl"
+      ],
+      "description": "Apple's refreshed Smart Folio supports multiple viewing angles thanks to revamped magnets in the latest iPads and the redesigned case itself. Apple's refreshed Smart Folio supports multiple viewing angles thanks to revamped magnets in the latest iPads and the redesigned case itself.",
+      "tickers": [
+        "aapl"
+      ]
+    },
+    {
+      "id": "8088537146354412856",
+      "title": "iPhone users report resurfacing deleted photos after iOS 17.5 update | Not the kind of bug you'd expect to run into on an Apple device",
+      "url": "https://www.reddit.com/r/gadgets/comments/1ctcy4h/iphone_users_report_resurfacing_deleted_photos/",
+      "site": "reddit.com",
+      "time": 1715866214000,
+      "favicon_url": "https://static.tickertick.com/website_icons/reddit.com.ico",
+      "tags": [
+        "aapl"
+      ],
+      "description": "submitted by /u/chrisdh79 [link] [comments] submitted by /u/chrisdh79 [link] [comments]",
+      "tickers": [
+        "aapl"
+      ]
+    },
+    {
+      "id": "-4987461970632499219",
+      "title": "Monitor for photo editing - Does anyone use a apple monitor with their PC setup in order ...",
+      "url": "https://www.reddit.com/r/pcmasterrace/comments/1ctcvgi/monitor_for_photo_editing/",
+      "site": "reddit.com",
+      "time": 1715865998000,
+      "favicon_url": "https://static.tickertick.com/website_icons/reddit.com.ico",
+      "tags": [
+        "aapl"
+      ],
+      "description": "Does anyone use a apple monitor with their PC setup in order to edit pictures? If so, is the picture on the apple monitor consistent with your iPhone (if you do have one). I’m trying to figure out if this is worth getting compared to an actual color corrected editing monitor for the sake of keeping picture colors consistent on both PC and iPhone and other devices. Thanks in advance!! submitted by /u/monsternut [link] [comments] Does anyone use a apple monitor with their PC setup in order to edit pictures? If so, is the picture on the apple monitor consistent with your iPhone (if you do have one). I’m trying to figure out if this is worth getting compared to an actual color corrected editing monitor for the sake of keeping picture colors consistent on both PC and iPhone and other devices. Thanks in advance!! submitted by /u/monsternut [link] [comments]",
+      "tickers": [
+        "aapl"
+      ]
+    },
+    {
+      "id": "-7866004654901876935",
+      "title": "Apple Pencil Pro tips and tricks: How to use the new iPad stylus, and get the most from its gesture and barrel roll features",
+      "url": "https://www.imore.com/ipad/apple-pencil-pro-tips-and-tricks-how-to-use-the-new-ipad-stylus-and-get-the-most-from-its-gesture-and-barrel-roll-features",
+      "site": "imore.com",
+      "time": 1715865983000,
+      "favicon_url": "https://static.tickertick.com/website_icons/imore.com.ico",
+      "tags": [
+        "aapl"
+      ],
+      "description": "Apple Pencil Pro takes the iPad stylus to the next level, here's how to use it.",
+      "tickers": [
+        "aapl"
+      ]
+    },
+    {
+      "id": "2458378701705118135",
+      "title": "Today’s deals: $120 off eufy X10 Pro Omni, First M2 iPad Air discount, $99 Ninja smokeless grill, more",
+      "url": "https://bgr.com/general/todays-deals-120-off-eufy-x10-pro-omni-first-m2-ipad-air-discount-99-ninja-smokeless-grill-more/",
+      "site": "bgr.com",
+      "time": 1715865960000,
+      "favicon_url": "https://static.tickertick.com/website_icons/bgr.com.ico",
+      "tags": [
+        "aapl"
+      ],
+      "description": "We found some seriously impressive deals for you to check out on Thursday, including the first-ever discount on Apple’s new M2 iPad Air that was … The post Today’s deals: $120 off eufy X10 Pro Omni, First M2 iPad Air discount, $99 Ninja smokeless grill, more appeared first on BGR. We found some seriously impressive deals for you to check out on Thursday, including the first-ever discount on Apple's new M2 iPad Air that was just released yesterday. You can also save big on the incredible new eufy X10 Pro Omni robot vacuum & mop, our favorite Ninja smokeless grill, and more. Keep reading to see all of our favorite daily deals on Thursday, May 16. eufy X10 Pro Omni Robot Vacuum + 2 Replacement Washable Filter Price: $689.98 (reg. $810) You Save: $120.00 (15%) Buy Now Apple iPad Air 11-inch (M2): Liquid Retina Display, 128GB, Landscape 12MP Front Camera/12MP Bac… Price: $569.99 (reg. $599) You Save: $29.01 (5%) Buy Now Ninja GR101 Sizzle Smokeless Indoor Grill & Griddle, 14'' Interchangeable Nonstick Plates, Dish… Price: $99.99 (reg. $140) You Save: $40.00 (29%) Buy Now Google Pixel 8a - Obsidian - 128 GB with $100 Amazon Gift Card Price: $499 (reg. $599) You Save: $100.00 (17%) Buy Now FEATURED DEAL: eufy X10 Pro Omni Our featured deal today is a brand-new robot vacuum and mop combo setup called the eufy X10 Pro Omni. I just started testing this model earlier this week, but I'm already so impressed that I need to tell BGR readers about it. Allow me to skip to the conclusion: It's awesome. The eufy X10 Pro Omni is the latest in a new breed of all-in-one robots. It's a robot vacuum and a robot mop, which obviously isn't anything we haven't seen before. What makes combo models like this extra cool is a special base station. When the X10 Pro Omni is done cleaning, the base station sucks out all the dirt and dust. On top of that, it washes the mopping pads with clean water and dries them with 113°F hot air. This ensures that the mop pads are clean, dry, and odor-free. Also, the debris bag in the base station can hold up to 2 months of dirt and dust before it needs to be changed. eufy X10 Pro Omni Robot Vacuum + 2 Replacement Washable Filter Price: $689.98 You Save: $120.00 (15%) Buy Now I'll talk more about the eufy X10 Pro Omni's performance in future coverage, but suffice it to say I'm impressed. It features 8,000 Pa suction, 1kg of mopping pressure, AI-powered navigation, and so much more. Now, for the best thing about the eufy X10 Pro Omni: the price. Comparable models sell for up to $1,500, but the X10 Pro Omni retails for just $800. That's crazy for such a powerful all-in-one robot. Better yet, there's an $810 bundle with two extra filters that's on sale for just $689.98. That's how much you would expect to pay for a mid-range model with auto-empty and auto-washing, but this is a premium model with high-end performance. Top Deals of the Day FEATURED SALE: Apple's just-released M2 iPad Air just got its first discount The Ninja GR101 smokeless indoor grill is down to $99.99 today The hot new Google Pixel 8a comes with a free $100 Amazon gift card, effectively slashing your price to just $399 Save 20% on the Ring Battery Doorbell Plus with an extra wide-angle camera APPLE DEALS M4 iPad Pro is $949.99 with its first-ever discount Apple Watch Series 9 starts at $299 (all-time low) Apple Watch SE is on sale for $189, the lowest price of 2024 M1 iPad Air is $399 on clearance at Amazon and Walmart (all-time low) iPad 9th-Gen starts at just $249 until it sells out (discontinued) AirPods Pro 2 with USB-C are $189.99 on sale Entry-level AirPods are $79.99 (all-time low) at Amazon and Walmart M3 MacBook Pro is $150 off at $1,449 M2 MacBook Pro is just $1,199.99 M1 MacBook Air is on clearance at $699, only at Walmart Apple AirTag 4-packs are down to $79.99 at Amazon, Walmart, and Best Buy Apple's Beats Studio Pro with ANC and insane bass are half off at $179.95 Brand-new Beats Solo 4 headphones with 50-hour battery life are $149.95, a 25% discount Our guide on the best Apple deals has even more great offers TRENDING SALES Save $100 on the Lenovo V15 G4 laptop with a 15.6-inch screen, 13th-gen Intel Core i7 processor, and a whopping 40GB of RAM The 2024 ASUS Vivibook Go laptop is on sale for $179.99, which is a fantastic price for this model The super-popular Roku Streaming Stick 4K is down to $34, which is the lowest price of 2024 Or, get the entry-level Roku Express on sale for just $19 Get a super popular Carote 11-piece cookware set for just $59.99; more than 10,000 people have bought this set in the past month alone! The $120 Ninja Air Fryer Pro is down to $89.99 on sale Over 10,000 people bought the TP-Link AX1800 WiFi 6 router in the past month, and it's now on sale for $74.99 The Vitamix Explorian E310 blender that everyone's obsessed with is down to just $299.95 Want something cheaper? Check out the Ninja BN401 NutriPro personal blender for $74.99 Popular under-cabinet LED lights are down to $18 on sale The Canon Pixma MG3620 all-in-one color printer is somehow only $46.99 right now Save 40% on the roborock Q5 Pro+ robot vacuum and mop combo device Score a $360 Shark AW302 HydroVac for just $199.99 on sale eufy X10 Pro Omni Robot Vacuum + 2 Replacement Washable Filter Price: $689.98 You Save: $120.00 (15%) Buy Now Apple iPad Air 11-inch (M2): Liquid Retina Display, 128GB, Landscape 12MP Front Camera/12MP Bac… Price: $569.99 You Save: $29.01 (5%) Buy Now Apple iPad Pro 11-Inch (M4): Ultra Retina XDR Display, 256GB, Landscape 12MP Front Camera/12MP… Price: $949.99 You Save: $49.01 (5%) Buy Now Google Pixel 8a - Obsidian - 128 GB with $100 Amazon Gift Card Price: $499.00 You Save: $100.00 (17%) Buy Now Apple AirPods Pro (2nd Generation) Wireless Ear Buds with USB-C Charging, Up to 2X More Active… Price: Price too low to display Buy Now Apple AirPods (2nd Generation) Wireless Ear Buds, Bluetooth Headphones with Lightning Charging… Price: $79.99 You Save: $49.01 (38%) Buy Now Apple AirTag 4 Pack Price: $79.00 You Save: $20.00 (20%) Buy Now Canon Pixma MG3620 Wireless All-In-One Color Inkjet Printer with Mobile and Tablet Printing, Bl… Price: Price too low to display Buy Now Beats Studio Pro - Wireless Bluetooth Noise Cancelling Headphones - Personalized Spatial Audio,… Price: $179.95 You Save: $170.04 (49%) Buy Now Beats Solo 4 - Wireless Bluetooth On-Ear Headphones, Apple & Android Compatible, Up to 50 Hours… Price: $149.95 You Save: $50.00 (25%) Buy Now Ring Battery Doorbell Plus | Head-to-Toe HD+ Video, motion detection & alerts, and Two-Way Talk… Price: $119.99 You Save: $30.00 (20%) Buy Now Apple iPad Air (5th Generation): with M1 chip, 10.9-inch Liquid Retina Display, 64GB, Wi-Fi 6,… Price: $399.00 You Save: $200.00 (33%) Buy Now Apple iPad (9th Generation): with A13 Bionic chip, 10.2-inch Retina Display, 64GB, Wi-Fi, 12MP… Price: $249.00 You Save: $80.00 (24%) Buy Now TP-Link AX1800 WiFi 6 Router (Archer AX21) – Dual Band Wireless Internet Router, Gigabit Router… Price: $73.95 You Save: $26.04 (26%) Buy Now Roku Streaming Stick 4K | Portable Roku Streaming Device 4K/HDR/Dolby Vision, Roku Voice Remote… Price: $34.00 You Save: $15.99 (32%) Buy Now Roku Express | HD Roku Streaming Device with Standard Remote (no TV controls), Free & Live TV Price: $19.00 You Save: $10.99 (37%) Buy Now Apple Watch Series 9 [GPS 41mm] Smartwatch with Midnight Aluminum Case with Midnight Sport Band… Price: $389.99 Buy Now Apple Watch SE (2nd Gen) [GPS 40mm] Smartwatch with Midnight Aluminum Case with Midnight Sport… Price: $189.00 You Save: $60.00 (24%) Buy Now Ninja GR101 Sizzle Smokeless Indoor Grill & Griddle, 14'' Interchangeable Nonstick Plates, Dish… Price: $99.99 You Save: $40.00 (29%) Buy Now Ninja Air Fryer Pro 4-in-1 with 5 QT Capacity, Air Fry, Roast, Reheat, Dehydrate, Air Crisp Tec… Price: $89.99 You Save: $30.00 (25%) Buy Now Ninja BN401 Nutri Pro Compact Personal Blender, Auto-iQ Technology, 1000-Peak-Watts, for Frozen… Price: $74.99 You Save: $25.00 (25%) Buy Now TOZO A1 Mini Wireless Earbuds Bluetooth 5.3 in Ear Light-Weight Headphones Built-in Microphone,… Price: $15.99 You Save: $14.00 (47%) Buy Now roborock Q5 Pro+ Robot Vacuum and Mop, Self-Emptying, 5500 Pa Max Suction, DuoRoller Brush, Han… Price: $419.99 You Save: $280.00 (40%) Buy Now LG CordZero Cordless Vacuum Cleaner with Auto Empty, Lightweight Stick Vac for Carpet and Hard… Price: $529.00 You Save: $470.99 (47%) Buy Now COSORI Air Fryer TurboBlaze 6 Quart Compact Airfryer that Roast, Bake, Proof, 9 Functions, 5 Sp… Price: $110.12 You Save: $9.87 (8%) Buy Now CAROTE 11pcs Pots and Pans Set Non Stick, Cookware Sets Detachable Handle, Induction RV Kitchen… Price: $69.99 ($6.36/Count) You Save: $50.00 (42%) Buy Now Don't Miss: Best deals: Tech, laptops, TVs, and more sales The post Today’s deals: $120 off eufy X10 Pro Omni, First M2 iPad Air discount, $99 Ninja smokeless grill, more appeared first on BGR. Today's Top Deals Today’s deals: $20 Apple AirTags, $34 Roku Streaming Stick 4K, $130 Beats Solo 3, $47 Canon printer, more Today’s deals: $79 AirPods, $249 iPad 9, free smart bulbs, Lexar memory sale, 20% off Galaxy S24, more Today’s deals: $3 Alexa smart plugs, Peloton sale, $250 HP laptop, Sony XM5 headphones, more Today’s deals: $299 Apple Watch Series 9, Dell laptop sale, KitchenAid mixers, $349 iPad 10, more Today’s deals: $120 off eufy X10 Pro Omni, First M2 iPad Air discount, $99 Ninja smokeless grill, more originally appeared on BGR.com on Thu, 16 May 2024 at 09:26:00 EDT. Please see our terms for use of feeds.",
+      "tickers": [
+        "aapl"
+      ]
+    },
+    {
+      "id": "-1593640738054520274",
+      "title": "Apple Thinks It Has A Cure For Motion Sickness",
+      "url": "https://jalopnik.com/apple-thinks-it-has-a-cure-for-motion-sickness-1851480887",
+      "site": "jalopnik.com",
+      "time": 1715865600000,
+      "favicon_url": "https://static.tickertick.com/website_icons/jalopnik.com.ico",
+      "tags": [
+        "aapl"
+      ],
+      "description": "Getting travel sick is rubbish, it can ruin a road trip, put you off taking that once-in-a-lifetime whale watching trip and dampen any excitement that comes with taking a plane on holiday. Well now, relief may be in sight as Apple believes it has a cure for motion sickness, and it doesn’t involve donning a pair of ridi…Read more...",
+      "tickers": [
+        "aapl"
+      ]
+    },
+    {
+      "id": "5738181785661355478",
+      "title": "HELP! Dual Screen - iMac & MacBook Pro",
+      "url": "https://www.reddit.com/r/mac/comments/1ctcpmq/help_dual_screen_imac_macbook_pro/",
+      "site": "reddit.com",
+      "time": 1715865533000,
+      "favicon_url": "https://static.tickertick.com/website_icons/reddit.com.ico",
+      "tags": [
+        "aapl"
+      ],
+      "description": "I want to use my imac as a secind screen for my macbook pro but have tried and tested some ways to do this, to no luck! Any help v much appreciated as I am just going around in circles and have convinced myself there must be a workaround.... My imac is an old (21.5-inch, Late 2013) running on macOS Catalina 10.15.7. My macbook pro is a 2020, 13 inch m1 running on macOS Sonoma 14.3. (this is a work laptop I am wanting to use with the imac to have two screens). I've tried using the Thunderbolt to USB-C Adaptor & Thunderbolt Cord to no luck (it did however run on my other personal macbook pro 2019 on MacOS Monterey. When I contacted apple support they let me know it is not compatible but were however confused how my 2019 laptop worked. Any other workarounds to make this work?! Any advice or tips are appreciated! submitted by /u/wicked_barbie [link] [comments] I want to use my imac as a secind screen for my macbook pro but have tried and tested some ways to do this, to no luck! Any help v much appreciated as I am just going around in circles and have convinced myself there must be a workaround.... My imac is an old (21.5-inch, Late 2013) running on macOS Catalina 10.15.7. My macbook pro is a 2020, 13 inch m1 running on macOS Sonoma 14.3. (this is a work laptop I am wanting to use with the imac to have two screens). I've tried using the Thunderbolt to USB-C Adaptor & Thunderbolt Cord to no luck (it did however run on my other personal macbook pro 2019 on MacOS Monterey. When I contacted apple support they let me know it is not compatible but were however confused how my 2019 laptop worked. Any other workarounds to make this work?! Any advice or tips are appreciated! submitted by /u/wicked_barbie [link] [comments]",
+      "tickers": [
+        "aapl"
+      ]
+    },
+    {
+      "id": "-9091533275621403477",
+      "title": "Apple Prevents $1.8 Billion Worth Fraudulent Transactions on the App Store in 2023",
+      "url": "https://www.gadgets360.com/mobiles/news/apple-app-store-prevents-usd-1-8-billion-worth-fraudulent-transactions-2023-5677753#rss-gadgets-apps",
+      "site": "gadgets360.com",
+      "time": 1715864981000,
+      "favicon_url": "https://static.tickertick.com/website_icons/gadgets360.com.ico",
+      "tags": [
+        "aapl"
+      ],
+      "description": "Apple revealed its efforts to prevent fraudulent transactions via the App Store between 2020 and 2023 on Tuesday. The Cupertino-based tech giant highlighted the rise of digital threats and the measures it has taken to protect users from falling for scams and phishing attacks. The company said it has prevented transaction frauds in the App Store totalling $7 billion (r...",
+      "tickers": [
+        "aapl"
+      ]
+    },
+    {
+      "id": "-4796037006240513744",
+      "title": "iPhone users report resurfacing deleted photos after iOS 17.5 update",
+      "url": "https://www.techspot.com/news/103019-iphone-users-report-resurfacing-deleted-photos-after-ios.html",
+      "site": "techspot.com",
+      "time": 1715864940000,
+      "favicon_url": "https://static.tickertick.com/website_icons/techspot.com.ico",
+      "tags": [
+        "aapl"
+      ],
+      "similar_stories": [
+        "8088537146354412856"
+      ],
+      "description": "The first murmurs of this phenomenon surfaced on Reddit, with multiple users sharing their bewilderment at finding long-deleted images marked as recently added in the Photos app. One user's account was particularly disconcerting, recounting how explicit personal photos from years prior had resurfaced unexpectedly during a conversation with their partner.Read Entire Article",
+      "tickers": [
+        "aapl"
+      ]
+    },
+    {
+      "id": "8227396077053680198",
+      "title": "Guys is it only me that my iPhone 15",
+      "url": "https://www.reddit.com/r/iphone/comments/1ctchqa/guys_is_it_only_me_that_my_iphone_15/",
+      "site": "reddit.com",
+      "time": 1715864878000,
+      "favicon_url": "https://static.tickertick.com/website_icons/reddit.com.ico",
+      "tags": [
+        "aapl"
+      ],
+      "description": "When I use my phone only for 15 minutes my phone gets hot submitted by /u/3wg8 [link] [comments] When I use my phone only for 15 minutes my phone gets hot submitted by /u/3wg8 [link] [comments]",
+      "tickers": [
+        "aapl"
+      ]
+    },
+    {
+      "id": "-8536257415157418756",
+      "title": "Apple Watch is a versatile device for golfers",
+      "url": "https://macdailynews.com/2024/05/16/apple-watch-is-a-versatile-device-for-golfers/",
+      "site": "macdailynews.com",
+      "time": 1715864733000,
+      "favicon_url": "https://static.tickertick.com/website_icons/macdailynews.com.ico",
+      "tags": [
+        "aapl"
+      ],
+      "description": "Apple Watch is a versatile device for golfers to stay connected, active, and healthy, and a suite of great golfing apps offers… The post Apple Watch is a versatile device for golfers appeared first on MacDailyNews. Apple Watch is a versatile device for golfers to stay connected, active, and healthy, and with a suite of great golfing apps, users can access course information, tools, and insights to improve their game. Apple Watch is a versatile device for golfers to stay connected, active, and healthy, and a suite of great golfing apps offers users course information, as well as tools and insights to keep track of and help improve their game. The high-frequency motion API released in watchOS 10, which takes advantage of the latest accelerometer and gyroscope in Apple Watch to detect rapid changes in velocity and acceleration, has equipped developers such as Golfshot with tools to create innovative new experiences that help users improve their golf swing and performance. For swing practice, Golfshot’s new Swing ID On-Range experience, launching today, utilizes this API to detect the precise moment the club strikes the ball. Apple Watch sensors also offer a comprehensive analysis of a golfer’s swing from the beginning to the end of the motion, and users of any skill level can track key swing metrics with precision, including tempo, rhythm, backswing, transition, and wrist path, to improve their gameplay. On the course, Golfshot also offers GPS distances, scoring, Auto Shot Tracking, swing analysis, and Auto Strokes Gained — all on Apple Watch — so golfers can track every shot and see real-time distances to the green, hazards, and targets on more than 46,000 courses worldwide. Apple Watch also provides an automated data collection process on the course to let users experience postround flyover reviews and advanced stats analysis on iPhone to elevate their game. “Leveraging the full capabilities of Apple Watch has always been a priority for Golfshot since our first Apple Watch release in 2015,” said Alex Flores, Golfshot’s chief growth officer, in a statement. “Innovative features including Auto Shot Tracking and Swing ID — both powered by Apple Watch and sophisticated machine learning — truly help golfers improve their game by giving real-time, personalized data on the device that’s already with them.” The API released in watchOS 10 helps detect rapid changes in velocity and acceleration to help users improve their golf swing and performance. he new Swing ID On-Range experience in Golfshot, launching today, utilizes high-frequency motion data available with watchOS 10 to detect the precise moment the club strikes the ball. Swing ID On-Range offers a comprehensive view of a golfer’s swing from the beginning to the end of the motion. With Golfshot, golfers can score their round to get vital statistics for their game and learn where they have opportunity for improvement. Using machine learning, Golfshot offers Auto Shot Tracking on Apple Watch to automatically track every shot. Golfshot is one of many golf-focused third-party apps available for Apple Watch. Additional golf apps for Apple Watch offer unique functionality that allow golfers to: • Track shots, get precise yardages adjusted in real time and club recommendations, and even mark the pin directly from Apple Watch with Arccos, the official game tracker of the PGA TOUR. • See hole layouts, carry distances, approach views with color heat maps of the green, and slope arrows for reading putts, all from the wrist, with GolfLogix. • Track scores, stats, and shot distances, and access a free golf GPS on iPhone and Apple Watch with TheGrint. • Get essentials with a glance at Apple Watch, including distances, maps, scoring, and a shot tracker, with Hole19. • Plan shots, get distances, and track scores and stats all directly from Apple Watch with 18Birdies Golf GPS Tracker. Arccos has an AI range finder that displays distance to the front, middle, and back of the green with GPS yardages in white and real-time adjusted yardages in green, and offers personalized club recommendations. The Approach View in GolfLogix offers a comprehensive display of the green, including front, center, and back GPS distances and precise distance to the pin. Enhanced with detailed heat maps and contours, the screen also delivers centimeter-accurate visuals. TheGrint provides GPS distances, shot tracking, score tracking, and green maps — all from Apple Watch. With Hole19, golfers can plan every shot with maps on Apple Watch for a phone-free experience. In the 18Birdies Apple Watch app, users can plan their shots with accurate, real-time distances to the front, middle, and back of the green. Apple Watch Features for Golfers Apple Watch Ultra 2 features a bold titanium case and flat sapphire front crystal with Apple’s brightest display ever, making it even more readable in harsh sunlight when out on the course. Additionally, the rugged and capable device offers 36-hour battery life with regular use, or up to 12 hours running an outdoor workout with GPS, and the best GPS of any Apple Watch. Golfers can track activity throughout the day on Apple Watch with the Workout app and see active calories from their round. Apple Watch can also help golfers stay connected by allowing them to receive important messages right from their wrist, while the double tap gesture on Apple Watch Series 9 and Apple Watch Ultra 2 makes viewing and sending messages even easier when the other hand is occupied. Support MacDailyNews at no extra cost to you by using this link to shop at Amazon. ‎ MacDailyNews Take: As the great Bobby Jones said, “You swing your best when you have the fewest things to think about.” ‎ Please help support MacDailyNews. Click or tap here to support our independent tech blog. Thank you! Support MacDailyNews at no extra cost to you by using this link to shop at Amazon. The post Apple Watch is a versatile device for golfers appeared first on MacDailyNews.",
+      "tickers": [
+        "aapl"
+      ]
+    },
+    {
+      "id": "-2040539223221585394",
+      "title": "ECOVACS’ new T30S robot cleaning system launches with Apple Watch/Dynamic Island integration at $150 off",
+      "url": "https://9to5toys.com/2024/05/16/ecovacs-deebot-t30s-combo-apple-watch/",
+      "site": "9to5toys.com",
+      "time": 1715864640000,
+      "favicon_url": "https://static.tickertick.com/website_icons/9to5toys.com.ico",
+      "tags": [
+        "aapl"
+      ],
+      "description": "ECOVACS has been a major player in the robotic cleaning game for a long while, and remains one of our favorites. I just recently had a chance to go hands-on with one of the brand’s latest flagship solutions, the ECOVACS DEEBOT X2 Combo – an all-in-one robotic cleaning system with auto-empty and auto mop washing, alongside an included hand vacuum, and it is simply fantastic…the best one I’ve tested out yet. But today, the brand is ready to officially unveil its next release known as the ECOVACS DEEBOT T30S Combo, a cleaning system designed to deliver much of the same amenities and technological advancements of the ECOVACS DEEBOT X2 Combo at a lower price point with even more power and some interesting Apple Watch and iOS integrations. Now available for purchase on Amazon with up to $150 in savings, you can get a breakdown of the DEEBOT T30S below. more…",
+      "tickers": [
+        "aapl"
+      ]
+    },
+    {
+      "id": "-462000664636149938",
+      "title": "How to FaceTime Without Wi-Fi on iPhone and Mac (2024 Guide)",
+      "url": "https://www.macobserver.com/iphone/use-facetime-without-wifi/?utm_source=macobserver&utm_medium=rss&utm_campaign=rss_everything",
+      "site": "macobserver.com",
+      "time": 1715864634000,
+      "favicon_url": "https://static.tickertick.com/website_icons/macobserver.com.ico",
+      "tags": [
+        "aapl"
+      ],
+      "description": "It's often better to use FaceTime over Wi-Fi for several reasons. The quality is better, and you won't eat through your mobile plan allowance. But if you're on the go or continue experiencing connectivity problems, you may have no choice but to use your cellular data instead. Today, I'll show you how to FaceTime without Wi-Fi on your iPhone and Mac. Let's get started. How to Use FaceTime Without Wi-Fi Using FaceTime on cellular data differs depending on whether you use an iPhone or a Mac, and I've included the instructions you must follow for both in the sections below. 1. Turn on Your Cellular Data (If it Isn't Already) If you're planning to use FaceTime on an iPhone or cellular iPad, you'll first need to turn on your cellular data. Doing so is easy. Just follow the steps below. Time needed: 1 minute. Open the Settings app and select Cellular. At the top of the next window is a toggle called Cellular Data. Switch this on so that it's green. Tap Cellular Data Options. Toggle Data Roaming on if you're outside your country of residence, and adjust Voice & Data and Data Mode to fit your preferences. 2. Allow FaceTime to Use Cellular Data After turning on your cellular data and adjusting your other settings, you'll need to let FaceTime use your mobile network. Follow these instructions to verify that you have (or to switch the feature on). Go to Settings \u003E Cellular. Scroll down to the Cellular Data section. Here, you'll see all of your apps and whether they have access to mobile data. When you see FaceTime, switch the toggle on so that it's now green. As you can see from the image below, I can now use FaceTime wherever I want. If you want to use FaceTime on a cellular plan because it's not working, read this guide on why FaceTime keeps failing (and how to fix it). 3. On a Mac: Tether Your iPhone While Macs don't support cellular data, you can use FaceTime on your device by tethering your iPhone. I recommend doing this if you're having persistent problems with your Wi-Fi that you can't control, and you're waiting for your provider to fix the problem. Follow these steps to connect to your smartphone. First, go to your iPhone. Navigate to Settings \u003E Cellular \u003E Personal Hotspot. Switch the Allow Others to Join toggle on and create a Wi-Fi password. Go to your Mac and switch Bluetooth on via the Control Center or System Settings. Tap the Wi-Fi symbol and select your iPhone. Enter the password when prompted, wait for your device to connect, and go to FaceTime. Use the app like normal. Although I still recommend using FaceTime with Wi-Fi, knowing how to use FaceTime during connectivity issues is always a good idea. Similarly, it's nice to understand your options when on the go. Now, you can keep up with your loved ones or those essential work conversations wherever you are. It’s often better to use FaceTime over Wi-Fi for several reasons. The quality is better, and you won’t eat through your mobile plan allowance. But if you’re on the go or continue experiencing connectivity problems, you may have no choice but to use your cellular data instead. Today, I’ll show you how to FaceTime without Wi-Fi on your iPhone and Mac. Let’s get started. How to Use FaceTime Without Wi-Fi Using FaceTime on cellular data differs depending on whether you use an iPhone or a Mac, and I’ve included the instructions you must follow for both in the sections below. 1. Turn on Your Cellular Data (If it Isn’t Already) If you’re planning to use FaceTime on an iPhone or cellular iPad, you’ll first need to turn on your cellular data. Doing so is easy. Just follow the steps below. Time needed: 1 minute Open the Settings app and select Cellular. At the top of the next window is a toggle called Cellular Data. Switch this on so that it’s green. Tap Cellular Data Options. Toggle Data Roaming on if you’re outside your country of residence, and adjust Voice & Data and Data Mode to fit your preferences. 2. Allow FaceTime to Use Cellular Data After turning on your cellular data and adjusting your other settings, you’ll need to let FaceTime use your mobile network. Follow these instructions to verify that you have (or to switch the feature on). Go to Settings \u003E Cellular. Scroll down to the Cellular Data section. Here, you’ll see all of your apps and whether they have access to mobile data. When you see FaceTime, switch the toggle on so that it’s now green. As you can see from the image below, I can now use FaceTime wherever I want. If you want to use FaceTime on a cellular plan because it’s not working, read this guide on why FaceTime keeps failing (and how to fix it). 3. On a Mac: Tether Your iPhone While Macs don’t support cellular data, you can use FaceTime on your device by tethering your iPhone. I recommend doing this if you’re having persistent problems with your Wi-Fi that you can’t control, and you’re waiting for your provider to fix the problem. Follow these steps to connect to your smartphone. First, go to your iPhone. Navigate to Settings \u003E Cellular \u003E Personal Hotspot. Switch the Allow Others to Join toggle on and create a Wi-Fi password. Go to your Mac and switch Bluetooth on via the Control Center or System Settings. Tap the Wi-Fi symbol and select your iPhone. Enter the password when prompted, wait for your device to connect, and go to FaceTime. Use the app like normal. Although I still recommend using FaceTime with Wi-Fi, knowing how to use FaceTime during connectivity issues is always a good idea. Similarly, it’s nice to understand your options when on the go. Now, you can keep up with your loved ones or those essential work conversations wherever you are.",
+      "tickers": [
+        "aapl"
+      ]
+    },
+    {
+      "id": "5841962445080184995",
+      "title": "Apple's iPad Air 5th Gen just hit its lowest price ever on Amazon at $200 off, and it's selling fast",
+      "url": "https://www.thestreet.com/deals/apple-ipad-air-5th-generation-amazon-sale",
+      "site": "thestreet.com",
+      "time": 1715864626000,
+      "favicon_url": "https://static.tickertick.com/website_icons/thestreet.com.ico",
+      "tags": [
+        "aapl"
+      ],
+      "description": "Get it now for just under $400. TheStreet aims to feature only the best products and services. If you buy something via one of our links, we may earn a commission.Apple recently revealed their latest line-up of iPads during its ‘Let Loose’ keynote, which for deal hunters means just one thing: deeply-discounted, last-generation iPads. Right now, the 5th generation Apple iPad Air with M1 chip is down to $399 from its original price of $599.Despite being released in 2022, the iPad Air is no slouch and, in fact, packs a lot of the same features as its successor. You’ll still get Touch ID, USB-C, and up to 10 hours of battery life. Both the new and old iPad Air models feature a 12-megapixel rear camera and a 12-megapixel front camera. Apple iPad Air (5th Generation), $399 (was $599) at Amazon Courtesy of Amazon Of course, you’ll be missing out on a few things by going with the previous generation, like a slightly larger screen, the revised front-facing camera placement (now in the side bezel as opposed to the top of the tablet), more storage, and the more powerful M2 chip. The 5th generation iPad Air packs the M1 chip which is plenty to run most MacOS applications without skipping a beat. While 4K video editing may be a bit of a stretch, this iPad can handle general browsing, photo editing and playing games on its 10.9-inch display just fine. This iPad Air is compatible with the second-generation Apple Pencil ($79, down from $129 at Amazon) and Apple Pencil (USB-C) ($69, down from $79) for those who want to draw and take notes with a stylus. According to one user, \"I use this iPad mainly for digital art, note taking, and writing books. It’s great for graphic designers, digital artists, and/or students who need to take notes, study, do projects, or write papers (get a keyboard case for typing) and so much more.\"For an additional $78, you can pick AppleCare+ which extends your accidental damage coverage and technical support by two years.If you don’t need to have the latest-and-greatest iPad Air, this is an excellent time to invest in a very capable device. Right now, all five colors are available for $200 off. In fact, this current price is the lowest it's ever been (even lower than what was offered during Black Friday) but supplies are limited.",
+      "tickers": [
+        "aapl"
+      ]
+    },
+    {
+      "id": "275252309237511810",
+      "title": "Apple Discontinues 'iOS Developer University Program' for Students",
+      "url": "https://www.macrumors.com/2024/05/16/apple-ends-ios-developer-university-program/",
+      "site": "macrumors.com",
+      "time": 1715864453000,
+      "favicon_url": "https://static.tickertick.com/website_icons/macrumors.com.ico",
+      "tags": [
+        "aapl"
+      ],
+      "description": "Apple has discontinued the iOS Developer University Program as of May 15, according to a notice on its website and an email sent to program members. The program allowed university professors and other eligible instructors to create a development team with up to 200 students, who could create and test apps without needing to pay the usual $99 annual fee for Apple Developer Program membership. Apple says accredited educational institutions can still enroll in the Apple Developer Program at no cost by submitting a fee waiver request. Thanks, Nicolás Álvarez!This article, \"Apple Discontinues 'iOS Developer University Program' for Students\" first appeared on MacRumors.comDiscuss this article in our forums",
+      "tickers": [
+        "aapl"
+      ]
+    },
+    {
+      "id": "326612874487036155",
+      "title": "Need to make a professional-looking logo? You need this iPhone and Mac app",
+      "url": "https://www.imore.com/apps/need-to-make-a-professional-looking-logo-you-need-this-iphone-and-mac-app",
+      "site": "imore.com",
+      "time": 1715864451000,
+      "favicon_url": "https://static.tickertick.com/website_icons/imore.com.ico",
+      "tags": [
+        "aapl"
+      ],
+      "description": "Logoist isn’t cheap, but it’s a handy design tool, it’s easy to use and when you compare it to other options it’s actually excellent value.",
+      "tickers": [
+        "aapl"
+      ]
+    },
+    {
+      "id": "-4288388939998530988",
+      "title": "How to Use Your TV Remote to Control Your Consoles, Apple TV, and More",
+      "url": "https://www.howtogeek.com/how-to-use-your-tv-remote-to-control-your-consoles-apple-tv-and-more/",
+      "site": "howtogeek.com",
+      "time": 1715864417000,
+      "favicon_url": "https://static.tickertick.com/website_icons/howtogeek.com.ico",
+      "tags": [
+        "aapl"
+      ],
+      "description": "Simplify your living room setup by using a single remote. Are you sick of constantly looking for the Apple TV remote, or having to use your phone or game controller every time you want to watch something? Today we're going to show you how to unite all of your (compatible) devices with the remote that came with your TV.",
+      "tickers": [
+        "aapl"
+      ]
+    },
+    {
+      "id": "790187186525017997",
+      "title": "Owlchemy: Vision Pro is biggest step towards VR mainstream adoption",
+      "url": "https://www.gamesindustry.biz/owlchemy-vision-pro-is-biggest-step-towards-vr-mainstream-adoption",
+      "site": "gamesindustry.biz",
+      "time": 1715864274000,
+      "favicon_url": "https://static.tickertick.com/website_icons/gamesindustry.biz.ico",
+      "tags": [
+        "aapl"
+      ],
+      "description": "Rumour has it that the Vision Pro is finally getting ready to get shipped outside of the US. Three months after its American launch, Bloomberg reported that Apple's VR headset could be shipping in several territories worldwide as early as next month, off the back of the firm's Worldwide Developers Conference.It's unclear how many headsets Apple has shifted since retail availability in the US but the high $3,500 price point has made the Vision Pro somewhat of a niche within a niche product. Global availability could heighten the demand though.And that's good news for the developers who are supporting the Vision Pro, including Owlchemy Labs. The studio announced back in February that it was porting VR hits Job Simulator and Vacation Simulator to Apple's headset, and CEO Andrew Eiche says that the strategy has always been for the studio's games to be on as many platforms as possible, regardless of how big the platforms are. Read more",
+      "tickers": [
+        "aapl"
+      ]
+    },
+    {
+      "id": "-4387196181545269781",
+      "title": "Apple’s iPad 10th Gen now at new all-time lows from $334, or 256GB starting at $460",
+      "url": "https://9to5toys.com/2024/05/16/apple-officially-slashed-100-off-ipad-10th-gen-amazon-takes-it-even-further-with-new-all-time-lows-from-334/",
+      "site": "9to5toys.com",
+      "time": 1715864220000,
+      "favicon_url": "https://static.tickertick.com/website_icons/9to5toys.com.ico",
+      "tags": [
+        "aapl"
+      ],
+      "description": "Update: While you can still score the base model down at the $334 low as well as the elevated 256GB variant at $474 in new condition on Amazon, Woot has now slashed its open-box listing – it is now $10 less: Woot’s listing for open-box units has now dropped even lower from our previous mention to $459.99 Prime shipped. But with the open box condition, there is a reduced 90-day Woot warranty – it does “ship in original retail packaging with all original accessories” though, according to Woot. While pre-orders are now live on Apple’s new mid- to high-end iPads ahead of next week’s delivery of the M2 iPad Air and the M4 iPad Pro, the iPad 10th Generation still headlines the starting lineup and now, with a lower price tag. Both configurations have officially been slashed by $100, dropping the 64GB model from $449 to $349 and the 256G from $599 to $499. With the iPad 9th Gen officially discontinued, the iPad 10th Gen is the most affordable current-generation Apple tablet and Amazon has dropped the price a touch further already. Now starting from $334 with deals on both the 64GB and 256GB configurations, today we have new Amazon all-time low pricing alongside an even deeper deal on open-box units via Woot. Head below for the details. more…",
+      "tickers": [
+        "aapl"
+      ]
+    },
+    {
+      "id": "9065293802678245398",
+      "title": "Intel Thunderbolt Share app clones Mac feature, then says not available for Mac",
+      "url": "https://9to5mac.com/2024/05/16/intel-thunderbolt-share-mac/",
+      "site": "9to5mac.com",
+      "time": 1715863955000,
+      "favicon_url": "https://static.tickertick.com/website_icons/9to5mac.com.ico",
+      "tags": [
+        "aapl"
+      ],
+      "description": "Intel has proudly announced Thunderbolt Share, a way to connect two Windows PCs together to allow one to control the other, as well as sharing files and screen-sharing. The company says it doesn’t yet work on a Mac – despite the fact that it borrowed the feature from Macs in the first place … more…",
+      "tickers": [
+        "aapl"
+      ]
+    },
+    {
+      "id": "-5533137942644559214",
+      "title": "M4 iPad Pro Bend Tests: Durability Equal to M2 Model Despite Thinness",
+      "url": "https://www.macrumors.com/2024/05/16/m4-ipad-pro-bend-tests-durability/",
+      "site": "macrumors.com",
+      "time": 1715863814000,
+      "favicon_url": "https://static.tickertick.com/website_icons/macrumors.com.ico",
+      "tags": [
+        "aapl"
+      ],
+      "description": "The first M4 iPad Pro bend tests are in, and the initial consensus appears to be that Apple has managed to make its thinnest device ever just as durable as the previous generation M2 iPad Pro that it replaces. Two approaches were taken in bend tests by prominent tech YouTubers. JerryRigEverything for example forcibly applied pressure by bending the new device with his hands, while MobileReviewsEh took a different tack by placing the iPad under a force meter and applying gym weights on top to exert pressure within a limited contact area. When bending the iPad Pro from the back in the horizontal position, JerryRigEverything found that the device held up \"surprisingly well,\" as if \"suspicious levels of black magic structural integrity\" were going on. When forcibly bent from the back, the glass screen eventually rippled away from the frame, yet the display and operating system continued to function normally. When it came to putting pressure on the device vertically, however, it was a different story, and the iPad Pro quickly suffered a catastrophic split up the middle, originating from the USB-C port. JerryRigEverything then removed the display to reveal and remove the internals, including the new metal cowling that runs down the middle of the device. \"If Apple could add another more perpendicular spine running width-wise near the charging port, this thing probably would have survived,\" he added. JerryRigEverything concluded that the central spine of the new iPad Pro is \"definitely providing enough structure for horizontal bends,\" and should stand up to everyday use in a backpack or luggage. In his own AppleTrack test, Sam Kohl agreed: \"Is [its thinness] a durability risk? The answer is no. The spine that Apple put along the logic board is very good unless you are bending the corners in.\" After placing in excess of 70 pounds of weight on the center of the iPad Pro display until complete structural failure, MobileReviewsEh concluded that the new iPad Pro is \"just as tough if not a little bit tougher\" than the one it replaces, despite being 18-20% thinner than the M2 iPad Pro. All in all, another \"bendgate\" looks unlikely. For those unfamiliar with the controversy, Apple in 2019 admitted to shipping its then-new models with a \"very slight bend in the aluminum chassis,\" which it blamed on a \"side effect of the manufacturing process.\" Despite videos indicating that the 2018 iPad Pro models bent more easily than other models, Apple said the bend did not worsen over time or negatively affect the iPad's performance, and that concerns over the device's durability were unfounded. Nevertheless, some iPad owners were understandably upset to find defects in devices that cost hundreds of dollars. Related Roundup: iPad ProBuyer's Guide: iPad Pro (Buy Now)This article, \"M4 iPad Pro Bend Tests: Durability Equal to M2 Model Despite Thinness\" first appeared on MacRumors.comDiscuss this article in our forums",
+      "tickers": [
+        "aapl"
+      ]
+    },
+    {
+      "id": "-957927890219473736",
+      "title": "the Apple tablet with USB-C is at its best price",
+      "url": "https://gettotext.com/the-apple-tablet-with-usb-c-is-at-its-best-price/",
+      "site": "gettotext.com",
+      "time": 1715863649000,
+      "favicon_url": "https://static.tickertick.com/website_icons/gettotext.com.ico",
+      "tags": [
+        "aapl"
+      ],
+      "description": "The 10th generation iPad is on sale on the Amazon site. The Apple touchscreen tablet with USB-C benefits from a significant reduction of almost 30 euros. CLICK HERE TO TAKE… The 10th generation iPad is on sale on the Amazon site. The Apple touchscreen tablet with USB-C benefits from a significant reduction of almost 30 euros. CLICK HERE TO TAKE ADVANTAGE OF THIS GOOD DEAL After the cheaper iPhone 14 Plus and the MacBook Air 15″ with M3 at a reduced price, it’s the turn of another high-tech device from the Apple ecosystem to be the subject of a good deal. Remember, Apple announced a price drop on the iPad 10 after unveiling the iPad Pro M4. At Amazon you can get the 2022 model of the 10th generation iPad at 410 euros instead of 439 euros. The promotional offer concerns the 64 GB version of the Apple tablet. For information, no additional shipping costs are requested in the case of home delivery and the e-commerce site suggests paying for the item in several installments. Released alongside the iPad Pro with M2, the 2022 iPad 10 features a 10.9-inch Liquid Retina display with a resolution of 2360 x 1640 pixels at 264 pixels per inch and a True Tone display. The Apple tablet also features an A14 Bionic chip including a 6-core CPU, a 4-core GPU and the 16-core Neural Engine. The RAM is 4 GB of RAM, the operating system is iPadOS 16 and the battery life can be around 10 hours of use. For the photo part, we can find a 12 MP rear sensor (wide angle) and a 12 MP ultra wide-angle front camera. Finally, connectivity consists of Wi-Fi 6, Bluetooth 5.2 wireless technology and a USB-C connector where a USB‑C charging cable and a 20W USB‑C power adapter come with the iPad . Source link -101",
+      "tickers": [
+        "aapl"
+      ]
+    },
+    {
+      "id": "3154401887410205762",
+      "title": "How to use iPad as a Mac replacement and why you'd want to",
+      "url": "https://appleinsider.com/inside/ipad/tips/how-to-use-ipad-as-a-mac-replacement-and-why-youd-want-to?utm_medium=rss",
+      "site": "appleinsider.com",
+      "time": 1715862835000,
+      "favicon_url": "https://static.tickertick.com/website_icons/appleinsider.com.ico",
+      "tags": [
+        "aapl"
+      ],
+      "description": "There's no question that it is possible to get work done on iPad, but there are tradeoffs. Here's what you need to know about replacing your Mac with iPad.iPad Pro can replace the MacBook Pro for some usersApple set off quite the debate when it asked users a simple conceptual question, \"What's a computer?\" The answer seemed obvious, but the tech-devout couldn't agree.People try to define computers based on their personal needs, so if the iPad won't work for them, they believe it won't work for anyone. That's obviously not true, but the iPad can't support every workflow — not yet. And, the iPad is better at some things than the Mac. Continue Reading on AppleInsider | Discuss on our Forums",
+      "tickers": [
+        "aapl"
+      ]
+    },
+    {
+      "id": "-7811361399471192759",
+      "title": "iOS Update is Causing NSFW Photos to Reappear on People’s iPhones",
+      "url": "https://petapixel.com/2024/05/16/ios-update-is-causing-nsfw-photos-to-reappear-on-peoples-iphones/",
+      "site": "petapixel.com",
+      "time": 1715862826000,
+      "favicon_url": "https://static.tickertick.com/website_icons/petapixel.com.ico",
+      "tags": [
+        "aapl"
+      ],
+      "description": "Apple users are reporting that old photos -- including NSFW ones -- are reappearing on their devices after updating to the latest iOS 17.5. [Read More]",
+      "tickers": [
+        "aapl"
+      ]
+    },
+    {
+      "id": "3361923409608722547",
+      "title": "iOS 18 accessibility features hailed as life-changing by disability campaigner",
+      "url": "https://9to5mac.com/2024/05/16/ios-18-accessibility-features-life-changing/",
+      "site": "9to5mac.com",
+      "time": 1715862819000,
+      "favicon_url": "https://static.tickertick.com/website_icons/9to5mac.com.ico",
+      "tags": [
+        "aapl"
+      ],
+      "description": "The iOS 18 accessibility features yesterday previewed by Apple have been hailed as “life-changing” by a disability campaigner. Accessibility advocate Colin Hughes praised Apple for responding to a key request he made via 9to5Mac back in March … more…",
+      "tickers": [
+        "aapl"
+      ]
+    },
+    {
+      "id": "-8947396160014307347",
+      "title": "my Imac disconnects from internet but is still connect to wifi",
+      "url": "https://www.reddit.com/r/mac/comments/1ctbspj/my_imac_disconnects_from_internet_but_is_still/",
+      "site": "reddit.com",
+      "time": 1715862721000,
+      "favicon_url": "https://static.tickertick.com/website_icons/reddit.com.ico",
+      "tags": [
+        "aapl"
+      ],
+      "description": "as I said in the title, the mac disconnects from internet, I've read an apple blog page, I tried to run the wireless diagnostic dut it closes after a few seconds of \"bouncing\" what can I do ? submitted by /u/Jsuispasici [link] [comments] as I said in the title, the mac disconnects from internet, I've read an apple blog page, I tried to run the wireless diagnostic dut it closes after a few seconds of \"bouncing\" what can I do ? submitted by /u/Jsuispasici [link] [comments]",
+      "tickers": [
+        "aapl"
+      ]
+    },
+    {
+      "id": "-1463255340837095905",
+      "title": "RetroArch turns your Apple TV into a Nintendo 64 emulator",
+      "url": "https://bgr.com/tech/retroarch-turns-your-apple-tv-into-a-nintendo-64-emulator/",
+      "site": "bgr.com",
+      "time": 1715862692000,
+      "favicon_url": "https://static.tickertick.com/website_icons/bgr.com.ico",
+      "tags": [
+        "aapl"
+      ],
+      "description": "Retro game emulators are finally available for iPhone users. After a lifetime without allowing them, Apple changed its rules once it started complaining about Europe’s … The post RetroArch turns your Apple TV into a Nintendo 64 emulator appeared first on BGR. Retro game emulators are finally available for iPhone users. After a lifetime without allowing them, Apple changed its rules once it started complaining about Europe's Digital Markets Act. While the adoption of retro game emulators on the App Store is still slow, with a few developers publishing and then pulling out their apps, we're finally seeing more interesting options. While Delta is the go-to app for everything retro game emulator, it still doesn't support Apple TV. Thankfully, developer Daniel de Matteis published RetroArch, a game emulator that works with the iPhone, iPad, and Apple TV. According to the developer, RetroArch is a free, ad-free, open source, and cross-platform frontend/framework for emulators, game engines, video games, media players, and other applications. With it, you can emulate an Atari, a Game Boy, a Super Nintendo, a PlayStation 1, and even a Nintendo 64. This app's features include: Netplay Soft patching RetroAchievements Save states MFi controller support Key remapping per core or per game Gyro Cheats Custom overlays Shaders Fast forward and rewind Game artwork AI translations Advanced latency management OK, but how do I play ROMs with this retro game emulator? https://twitter.com/sigjudge/status/1790873751552237902?s=46 It's not straight-up how to play ROms with RetroArch. If you don't get intimidated by the 90s style, it's actually pretty easy. Once you open this Apple TV retro emulator app for the first time, it will give you two directories to import files: I preferred using the ",
+      "tickers": [
+        "aapl"
+      ]
+    },
+    {
+      "id": "518964215719301421",
+      "title": "Hedge funds: Who dumped Apple, who picked it up",
+      "url": "https://www.ped30.com/2024/05/16/hedge-funds-dumped-apple-picked/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=hedge-funds-dumped-apple-picked",
+      "site": "ped30.com",
+      "time": 1715862480000,
+      "favicon_url": "https://static.tickertick.com/website_icons/ped30.com.ico",
+      "tags": [
+        "aapl"
+      ],
+      "description": "From Mike Wuerthele's \"One hedge fund completely bailed out of AAPL, but another more than picked up the slack\" posted Thursday by AppleInsider.",
+      "tickers": [
+        "aapl"
+      ]
+    },
+    {
+      "id": "3272896234764250471",
+      "title": "After Dark Screensavers - Just throwing out an idea. Apple should buy all the intellectual ...",
+      "url": "https://forums.macrumors.com/threads/after-dark-screensavers.2426401/",
+      "site": "macrumors.com",
+      "time": 1715862152000,
+      "favicon_url": "https://static.tickertick.com/website_icons/macrumors.com.ico",
+      "tags": [
+        "aapl"
+      ],
+      "description": "Just throwing out an idea. Apple should buy all the intellectual property / software associated with After Dark screensavers (every single version). Berkeley Systems was the software company who made this, not sure who owns it now. These screensavers were the greatest and then they just disappeared. Apple's built-in screensaver selection for macOS has been pretty minimal for years. It would be so great if for a retro feature they included all the old After Dark screensavers in... Read more Just throwing out an idea. Apple should buy all the intellectual property / software associated with After Dark screensavers (every single version). Berkeley Systems was the software company who made this, not sure who owns it now. These screensavers were the greatest and then they just disappeared. Apple's built-in screensaver selection for macOS has been pretty minimal for years. It would be so great if for a retro feature they included all the old After Dark screensavers in... Read more",
+      "tickers": [
+        "aapl"
+      ]
+    },
+    {
+      "id": "-6851832912317284434",
+      "title": "New Live Captions Feature on Vision Pro Could Lead the Way to Real-time Translation",
+      "url": "https://www.roadtovr.com/vision-pro-captions-lead-real-time-translation/",
+      "site": "roadtovr.com",
+      "time": 1715862061000,
+      "favicon_url": "https://static.tickertick.com/website_icons/roadtovr.com.ico",
+      "tags": [
+        "aapl"
+      ],
+      "description": "Apple announced it’s introducing a host of accessibility features to Vision Pro, which is set to include Live Captions for the deaf or hard of hearing. It certainly feels like an important first step in eventually kitting the device with real-time translation at some point down the road. The visionOS update, which is said to […] The post New Live Captions Feature on Vision Pro Could Lead the Way to Real-time Translation appeared first on Road to VR. Apple announced it’s introducing a host of accessibility features to Vision Pro, which is set to include Live Captions for the deaf or hard of hearing. It certainly feels like an important first step in eventually kitting the device with real-time translation at some point down the road. The visionOS update, which is said to arrive some point later this year, will also add adjustable captions for Apple Immersive Video, and support for ‘Made for iPhone’ hearing devices and cochlear hearing processors. Additionally, accessibility features will include options to Reduce Transparency, Smart Invert, and Dim Flashing Lights for users with low vision or those sensitive to bright lights and flashing. Since the update is system-wide, things like Live Captions will allow users to follow along with spoken dialogue in live conversations, but also audio from all apps, such as FaceTime or streaming content that isn’t already subtitled. Meanwhile, the most recent demo of ChatGPT-4o (seen below) could be a sign of things to come, as it showcases just how good real-time translation has gotten—probably better than you’d expect. Provided Apple decides to push such a feature in the near-future, it could mean face-to-face conversations will soon have subtitles, like you might see on TV or in video games. It could also allow for content that isn’t already subtitled to benefit as well, letting you catch up on the latest episode of that Turkish soap opera, Italian Serie B football match, or even figure out what Scottish people are actually saying. That’s not to say it would be perfect, but it could be hypothetically implemented right now with some degree of success. Granted, Apple wouldn’t be the first to highlight such a feature when the company does come around to the idea. Before Google shuttered its Project Iris AR glasses, Google was teasing real-time translation as an important add-on that does essentially what I described above. This follows an ongoing push by Apple to make Vision Pro probably one of the most accessible headsets on the market. It already includes voice input in addition to both hand and eye-tracking for easily traversing UI, as well as features such as VoiceOver, Zoom, and Color Filters for those with low vision. Other accessibility features include Switch Control, Sound Actions, and Dwell Control, which Apple says helps those with physical disabilities. The post New Live Captions Feature on Vision Pro Could Lead the Way to Real-time Translation appeared first on Road to VR.",
+      "tickers": [
+        "aapl"
+      ]
+    },
+    {
+      "id": "-7361023416798712702",
+      "title": "Looking for budgeting program - Can anyone recommend a desktop program or iPhone app that will ...",
+      "url": "https://www.reddit.com/r/personalfinance/comments/1ctbio7/looking_for_budgeting_program/",
+      "site": "reddit.com",
+      "time": 1715861832000,
+      "favicon_url": "https://static.tickertick.com/website_icons/reddit.com.ico",
+      "tags": [
+        "aapl"
+      ],
+      "description": "Can anyone recommend a desktop program or iPhone app that will allow me to start my budget month on a date other than the 1st of the month? I live in Texas, and I get paid biweekly. My wife is a teacher and gets paid every month on the 20th. I’d like to start my budget month on the 20th because that’s how my brain works. Any help would be appreciated! submitted by /u/FlashDad18 [link] [comments] Can anyone recommend a desktop program or iPhone app that will allow me to start my budget month on a date other than the 1st of the month? I live in Texas, and I get paid biweekly. My wife is a teacher and gets paid every month on the 20th. I’d like to start my budget month on the 20th because that’s how my brain works. Any help would be appreciated! submitted by /u/FlashDad18 [link] [comments]",
+      "tickers": [
+        "aapl"
+      ]
+    },
+    {
+      "id": "4151208636174060997",
+      "title": "Samsung takes bite out of Apple over its mega marketing misstep",
+      "url": "https://go.theregister.com/feed/www.theregister.com/2024/05/16/samsung_takes_a_bite_out/",
+      "site": "theregister.com",
+      "time": 1715861709000,
+      "favicon_url": "https://static.tickertick.com/website_icons/theregister.com.ico",
+      "tags": [
+        "aapl"
+      ],
+      "description": "'We would never crush creativity,' says South Korea megacorp If Apple thought it could forget about last week's marketing disaster — which saw the tech giant roundly slated for appearing to crush human creativity in the name of computing progress — it was wrong.…",
+      "tickers": [
+        "aapl"
+      ]
+    },
+    {
+      "id": "-2513054161875186954",
+      "title": "Rishi Sunak asked why he 'hates pensioners' by Janet Street-Porter in ITV Loose Women grilling",
+      "url": "https://www.mirror.co.uk/news/politics/rishi-sunak-asked-hates-pensioners-32825109",
+      "site": "mirror.co.uk",
+      "time": 1715861700000,
+      "favicon_url": "https://static.tickertick.com/website_icons/mirror.co.uk.ico",
+      "tags": [
+        "aapl"
+      ],
+      "description": "The Loose Women panellist Janet Street-Porter told the PM that retirees had come out worse under the Tories after economists warned older people were the biggest losers at the Spring Budget",
+      "tickers": [
+        "aapl"
+      ]
+    },
+    {
+      "id": "-6119157533144792453",
+      "title": "Apple’s latest entry-level AirPods 3 with Spatial Audio now down at $140 shipped, more from $80",
+      "url": "https://9to5toys.com/2024/05/16/apple-entry-level-airpods-3/",
+      "site": "9to5toys.com",
+      "time": 1715861547000,
+      "favicon_url": "https://static.tickertick.com/website_icons/9to5toys.com.ico",
+      "tags": [
+        "aapl"
+      ],
+      "description": "While Apple’s beloved AirPods Pro 2 have jumped up $10 to $190 now, we are otherwise looking to round out the slate of AirPods deals with the current-generation Apple AirPods 3 down at $139.99 shipped. Now joining deals on the cult-hit 2nd generation model as well as the ongoing AirPods Max price drops below, you can now land the 3rd Gen set back down at $139.99 shipped. Regularly $169 with the Lightning charging case in today’s package, this is matching the lowest we have tracked from a reputable dealer – they are available via both Best Buy and Amazon at this price today. Head below for more details. more…",
+      "tickers": [
+        "aapl"
+      ]
+    },
+    {
+      "id": "-8693658856785015842",
+      "title": "Apple Announces New AI and ML Powered Eye Tracking and Music Haptics Accessibility Features",
+      "url": "https://www.gadgets360.com/mobiles/news/apple-eye-tracking-music-haptics-vocal-shortcut-accessibility-features-unveiled-ai-ml-5676650#rss-gadgets-news",
+      "site": "gadgets360.com",
+      "time": 1715861451000,
+      "favicon_url": "https://static.tickertick.com/website_icons/gadgets360.com.ico",
+      "tags": [
+        "aapl"
+      ],
+      "description": "Apple announced several new accessibility-focused features for its iPhone and iPad devices on Wednesday. The company introduces regularly introduces new accessibility features to make the devices easier to use for those who suffer from physical disabilities. This year, the tech giant is bringing a new Eye Tracking feature that will allow users to control their device ...",
+      "tickers": [
+        "aapl"
+      ]
+    },
+    {
+      "id": "-3621380830387091675",
+      "title": "YouTuber Discovered Using a Magnet Paper That Apple Has Redesigned The Magnets In OLED iPad Pro For The Smart Folio Viewing Angles",
+      "url": "https://wccftech.com/oled-ipad-pro-redesigned-magnets/",
+      "site": "wccftech.com",
+      "time": 1715861281000,
+      "favicon_url": "https://static.tickertick.com/website_icons/wccftech.com.ico",
+      "tags": [
+        "aapl"
+      ],
+      "description": "The M4 iPad Pro's OLED display is potentially the best one on a tablet, as it uses a dual stack of OLED sheets for enhanced brightness and color accuracy. The company also introduced a brand-new 13-inch variant of the iPad Air which comes with an M2 chip for Pro-level performance. A YouTuber has now discovered that the new OLED iPad Pro and iPad Air models come with stronger magnets than before, despite a thinner overall design and form factor. Apple's new OLED iPad Pro and iPad Air house bigger and stronger magnets, allowing the Smart Folio to be adjusted in […] The M4 iPad Pro's OLED display is potentially the best one on a tablet, as it uses a dual stack of OLED sheets for enhanced brightness and color accuracy. The company also introduced a brand-new 13-inch variant of the iPad Air which comes with an M2 chip for Pro-level performance. A YouTuber has now discovered that the new OLED iPad Pro and iPad Air models come with stronger magnets than before, despite a thinner overall design and form factor. Apple's new OLED iPad Pro and iPad Air house bigger and stronger magnets, allowing the Smart Folio to be adjusted in […]Read full article at ",
+      "tickers": [
+        "aapl"
+      ]
+    },
+    {
+      "id": "-7138897894182141959",
+      "title": "Assassin’s Creed Shadows to Come to Mac on November 15th, Alonside PlayStation 5, PC, and Xbox Series X/S",
+      "url": "https://www.iphoneincanada.ca/2024/05/16/assassins-creed-shadows-mac-november-15/",
+      "site": "iphoneincanada.ca",
+      "time": 1715861177000,
+      "favicon_url": "https://static.tickertick.com/website_icons/iphoneincanada.ca.ico",
+      "tags": [
+        "aapl"
+      ],
+      "description": "Assassin's Creed Shadows launches on Apple silicon Mac devices, launching November 15th alongside PlayStation 5, Xbox Series X|S, Amazon Luna, and PC this fall. The post Assassin’s Creed Shadows to Come to Mac on November 15th, Alonside PlayStation 5, PC, and Xbox Series X/S first appeared on iPhone in Canada Blog.",
+      "tickers": [
+        "aapl"
+      ]
+    },
+    {
+      "id": "6415526801325000121",
+      "title": "Mastering Your Apple M2 iPad Air: Tips & Tricks to Unlock Its Full Potential",
+      "url": "https://www.geeky-gadgets.com/apple-m2-ipad-air-tips-tricks-video/",
+      "site": "geeky-gadgets.com",
+      "time": 1715860958000,
+      "favicon_url": "https://static.tickertick.com/website_icons/geeky-gadgets.com.ico",
+      "tags": [
+        "aapl"
+      ],
+      "description": "The Apple M2 iPad Air is a powerful and versatile device that combines robust hardware, intuitive software, and a range of useful accessories. Whether you’re using it for work, entertainment, or creative pursuits, there are many ways to get the most out of your iPad Air. The video below from iDB provides a collection of […] The post Mastering Your Apple M2 iPad Air: Tips & Tricks to Unlock Its Full Potential appeared first on Geeky Gadgets.",
+      "tickers": [
+        "aapl"
+      ]
+    },
+    {
+      "id": "3365596581473429497",
+      "title": "Ill Skip the iPhone 16 if It Doesnt Come With These 5 Upgrades",
+      "url": "https://www.howtogeek.com/ill-skip-the-iphone-16-if-it-doesnt-come-with-these-5-upgrades/",
+      "site": "howtogeek.com",
+      "time": 1715860876000,
+      "favicon_url": "https://static.tickertick.com/website_icons/howtogeek.com.ico",
+      "tags": [
+        "aapl"
+      ],
+      "description": "It's time for Apple to play catch up with Samsung and co. There's still time before Apple unveils the iPhone 16 lineup in September 2024, but the hype machine is in full swing. Today I'm focusing not on what Apple is expected to deliver, but on what I want to see to make the upgrade worthwhile.",
+      "tickers": [
+        "aapl"
+      ]
+    },
+    {
+      "id": "8951982076166385763",
+      "title": "Western Digital's famous My Passport hard drive now comes with a whopping 6TB of storage",
+      "url": "https://www.imore.com/accessories/western-digitals-famous-my-passport-hard-drive-now-comes-with-a-whopping-6tb-of-storage",
+      "site": "imore.com",
+      "time": 1715860800000,
+      "favicon_url": "https://static.tickertick.com/website_icons/imore.com.ico",
+      "tags": [
+        "aapl"
+      ],
+      "description": "Western Digital has just unveiled a whopping 6TB model of its My Passport hard drive, and it works with Mac.",
+      "tickers": [
+        "aapl"
+      ]
+    }
+  ],
+  "last_id": "8951982076166385763"
+}

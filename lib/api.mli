@@ -53,9 +53,9 @@ val volumes : t -> float array
 val range_x : int -> float array
 
 (* [days_before date n] returns the date (in the form (year, month, day)) [n]
-   days before [date] Note: only exposed for use in testing *)
+   days before [date]. Note: only exposed for use in testing *)
 val days_before : int * int * int -> int -> int * int * int
 
-(* [leap_year year] returns whether [year] is a leap year Note: only exposed for
-   use in testing *)
+(* [leap_year year] returns whether [year] is a leap year. Note: only exposed
+   for use in testing *)
 val leap_year : int -> bool

@@ -53,6 +53,7 @@ let alphavantage_data = Yojson.Safe.from_file "alphavantage_data.txt"
 let polygon_data = Yojson.Safe.from_file "polygon_data.txt"
 let twelvedata_data = Yojson.Safe.from_file "twelvedata_data.txt"
 let apistocks_data = Yojson.Safe.from_file "apistocks_data.txt"
+let tickertick_data = Yojson.Safe.from_file "tickertick_data.txt"
 
 let tests =
   [
@@ -253,6 +254,17 @@ let tests =
       assert_equal true
         ((Api.assoc_of_apistocks_json apistocks_data |> Api.volumes).(0)
         = 64885400.) );
+    ( "tickertick_title_test" >:: fun _ ->
+      assert_equal
+        "Pairing watch to iPhone - I got a new IPhone 14 and am having trouble \
+         pairing my watch. ..."
+        (Ticker_news.assoc_of_ticker_json tickertick_data
+        |> List.hd |> List.assoc "title") );
+    ( "tickertick_url_test" >:: fun _ ->
+      assert_equal
+        "https://www.reddit.com/r/iphone/comments/1ctcyrd/pairing_watch_to_iphone/"
+        (Ticker_news.assoc_of_ticker_json tickertick_data
+        |> List.hd |> List.assoc "url") );
   ]
 
 let test_suite = "CS3110 Final Test Suite" >::: tests
