@@ -1,4 +1,5 @@
 (test
  (name test_final)
- (deps (glob_files *.txt))
- (libraries final ounit2 qcheck batteries))
+ (deps
+  (glob_files *.txt))
+ (libraries final ounit2 qcheck batteries yojson))
