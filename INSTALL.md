@@ -2,7 +2,7 @@
 Use the following commands to install the required libraries for this application on Windows (through WSL: Ubuntu):
 
 ```bash
-opam install cohttp-lwt-unix cohttp-async plplot http-lwt-client bogue tsdl tsdl-image tsdl-ttf lablgtk3 cairo2
+opam install cohttp-lwt-unix cohttp-async plplot http-lwt-client bogue tsdl tsdl-image tsdl-ttf
 ```
 
 On Mac systems, there seems to be issues with installing plplot. If that issue arises, run the following commands in this order (must have Homebrew installed for the second one):
@@ -10,7 +10,7 @@ On Mac systems, there seems to be issues with installing plplot. If that issue a
 ```bash
 sudo apt install cmake pkg-config
 brew install plplot
-opam install cohttp-lwt-unix cohttp-async plplot http-lwt-client bogue tsdl tsdl-image tsdl-ttf lablgtk3 cairo2
+opam install cohttp-lwt-unix cohttp-async plplot http-lwt-client bogue tsdl tsdl-image tsdl-ttf
 ```
 
 To get rid of debug messages from libraries regarding permissions (like the one listed below), run this command (note that a password might need to be entered):
