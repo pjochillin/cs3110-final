@@ -32,5 +32,5 @@ dune exec bin/main.exe
 
 Once the GUI is open, enter a stock ticker in the input field and press the "Get Data" button to view the stock's data and related news.
 
-Authors
+Authors (NetID)
 Joshua Ochalek (jo447), Arnav Tevatia (at846), Krish Mehra (km937)
