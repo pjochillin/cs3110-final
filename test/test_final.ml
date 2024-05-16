@@ -54,19 +54,6 @@ let polygon_data = Yojson.Safe.from_file "polygon_data.txt"
 let twelvedata_data = Yojson.Safe.from_file "twelvedata_data.txt"
 let apistocks_data = Yojson.Safe.from_file "apistocks_data.txt"
 
-(* RSI data parser *)
-let rsi_fun line =
-  let split = String.split_on_char ' ' line in
-  match split with
-  | [] -> failwith "Empty line found in RSI file read!"
-  | h :: t ->
-      let period = int_of_string h in
-      let closes = List.map float_of_string t in
-      (period, closes)
-
-let rsi_data =
-  BatList.of_enum (BatFile.lines_of "rsi_data.txt") |> List.map rsi_fun
-
 let tests =
   [
     (* This test originates from
@@ -178,13 +165,23 @@ let tests =
        Vantage -> 25/day) *)
     (* ("alphavantage_series_test" >:: fun _ -> assert_equal true
        (Api.time_series "AAPL" |> Yojson.Safe.Util.keys |> List.mem "Time Series
-       (60min)")); ("polygon_series_test" >:: fun _ -> assert_equal true
-       (Api.polygon_series "AAPL" |> Yojson.Safe.Util.keys |> List.mem
-       "results")); ("twelvedata_series_test" >:: fun _ -> assert_equal true
-       (Api.twelvedata_series "AAPL" |> Yojson.Safe.Util.keys |> List.mem
-       "values")); ("apistocks_series_test" >:: fun _ -> assert_equal true
-       (Api.apistocks_series "AAPL" |> Yojson.Safe.Util.keys |> List.mem
-       "Results")); *)
+       (60min)")); *)
+    ( "polygon_series_test" >:: fun _ ->
+      assert_equal true
+        (Api.polygon_series "AAPL" |> Yojson.Safe.Util.keys
+       |> List.mem "results") );
+    ( "twelvedata_series_test" >:: fun _ ->
+      assert_equal true
+        (Api.twelvedata_series "AAPL"
+        |> Yojson.Safe.Util.keys |> List.mem "values") );
+    ( "apistocks_series_test" >:: fun _ ->
+      assert_equal true
+        (Api.apistocks_series "AAPL"
+        |> Yojson.Safe.Util.keys |> List.mem "Results") );
+    ( "tickertick_test" >:: fun _ ->
+      assert_equal true
+        (Ticker_news.fetch_ticker_json "AAPL"
+        |> Yojson.Safe.Util.keys |> List.mem "stories") );
     ( "alphavantage_opens_test" >:: fun _ ->
       assert_equal true
         ((Api.assoc_of_json alphavantage_data |> Api.opens).(0) = 182.6500) );
